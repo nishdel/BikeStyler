@@ -224,7 +224,7 @@ export default function ProductBrowser({
         {products.length === 1 ? "product" : "products"}
       </p>
       <div className="product-results">
-        {products.slice(0, page * 24).map((product) => (
+        {products.slice((page - 1) * 24, page * 24).map((product) => (
           <button
             key={product.id}
             className={`product-card ${selected?.id === product.id ? "chosen" : ""}`}
@@ -248,6 +248,7 @@ export default function ProductBrowser({
           {compatibleOnly?'No verified matches for the measurements entered. Add or review measurements, or turn off the compatibility filter to browse all products.':'No matching records. Clear the search or choose another category.'}
         </p>
       )}
+      {page > 1 && <button onClick={() => setPage(page - 1)}>Previous page</button>}
       {products.length > page * 24 && (
         <button onClick={() => setPage(page + 1)}>Show 24 more</button>
       )}
@@ -387,7 +388,7 @@ export default function ProductBrowser({
                     ...p,
                     styles: {
                       ...styles,
-                      [target]: { ...p.styles[target], product: selectionFor(selected,data,variant),entryId:entry.id,approvedApproximation:true },
+                      [target]: { ...p.styles[target], listing:undefined, product: selectionFor(selected,data,variant),entryId:entry.id,approvedApproximation:true },
                     },
                   });
                   notify(
@@ -449,12 +450,14 @@ function Measurements({
   project: Project;
   onChange: (p: Project) => void;
 }) {
+  const [opened,setOpened] = useState(() => !window.matchMedia('(max-width:640px)').matches);
   const [field, setField] = useState<string>("barClampDiameter"),
     [value, setValue] = useState(""),
     [status, setStatus] = useState<BikeMeasurement["status"]>("confirmed"),
     [evidence, setEvidence] = useState("");
   const descriptor = MEASUREMENT_FIELDS.find((f) => f[0] === field)!;
   return (
+    <details className="measurement-disclosure" open={opened} onToggle={e=>setOpened(e.currentTarget.open)}><summary>Optional bicycle measurements</summary>
     <section className="measurements catalogue-measurements" aria-label="My bicycle measurements">
       <h3>My bicycle measurements</h3>
       <p>
@@ -546,6 +549,6 @@ function Measurements({
         </select>
       </label>
       </details>
-    </section>
+    </section></details>
   );
 }

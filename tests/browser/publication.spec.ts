@@ -17,7 +17,7 @@ test('public bicycle example preserves its design, saves, exports white and reop
   await capture('editor');
   await page.locator('.component-strip button').filter({hasText:'Saddle'}).click();
   await page.getByRole('button',{name:'Real parts',exact:true}).click();
-  await expect(page.locator('.product-visual-card').filter({hasText:'B17'})).toHaveClass(/active/);
+  await expect(page.locator('[data-product-id="vintage-brooks-england-b17"]')).toHaveClass(/active/);
   await capture('components');
   await page.getByRole('button',{name:/Compare/}).click();
   await expect(page.getByText('Slide to compare',{exact:true})).toBeVisible();
@@ -27,6 +27,18 @@ test('public bicycle example preserves its design, saves, exports white and reop
   await expect(page.locator('.product-card').first()).toBeVisible();
   await capture('catalogue');
   await page.getByRole('button',{name:'Close catalogue'}).click();
+  if(process.env.BIKESTYLER_CAPTURE_DOCS){
+    await page.setViewportSize({width:390,height:844});
+    await page.getByRole('button',{name:'Collapse component panel'}).click();
+    await capture('mobile-editor');
+    await page.getByRole('button',{name:'Expand component panel'}).click();
+    await page.getByRole('button',{name:'Browse full screen'}).click();
+    await page.getByLabel('Find real parts').fill('Silverado');
+    await expect(page.locator('.source-listing-card').first()).toBeVisible();
+    await capture('mobile-catalogue');
+    await page.getByRole('button',{name:'Back to bicycle'}).click();
+    await page.setViewportSize({width:1440,height:1000});
+  }
   const saved=page.waitForEvent('download');await page.getByRole('button',{name:'Save editable project ↓'}).click();
   const portable=info.outputPath('example.bike.json');await(await saved).saveAs(portable);
   const p=JSON.parse(await fs.readFile(portable,'utf8'));

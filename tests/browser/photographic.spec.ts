@@ -7,7 +7,7 @@ test('main-page real cutouts, lighting and product identity survive portable exp
  await page.locator('.component-strip button').filter({hasText:'Saddle'}).click();
  const unlock=page.getByRole('button',{name:'Unlock Saddle',exact:true});if(await unlock.count())await unlock.click();
  await page.getByRole('button',{name:'Real parts',exact:true}).click();
- const card=page.locator('.product-visual-card').filter({hasText:'B17'});
+ const card=page.locator('[data-product-id="vintage-brooks-england-b17"]');
  await expect(card).toContainText('Reference-based cutout');
  await card.getByRole('button',{name:'Preview on bicycle'}).click();
  await expect(card).toHaveClass(/active/);

@@ -43,13 +43,19 @@ The preview normally uses `http://127.0.0.1:4173`. Wait for **Ready offline** be
 
 ## Catalogue
 
-The bundled data currently contains **100 real product records**, **68 documented variants** and **117 unfinished research candidates**. Variants belong to product records; candidates are not verified selectable products.
+The catalogue combines **100 reviewed product records with 68 documented variants** and **4,454 source listings with 24,070 explicit source variants** from the 18 October 2026 research snapshot. Nine exact source-URL matches are grouped with existing records in Visual styles. These counts overlap and do not represent unique models. The older **117 unfinished research candidates** remain separate.
+
+Open **Visual styles → Real parts** to try supported listings with labelled generic previews, or **Catalogue → Expanded source catalogue** to browse all listings and variants. Source listings have unknown fitment and never qualify for **Compatible real parts**. Of 73 priority image candidates reviewed, 58 support an existing generic preview and 15 are catalogue-only. No new manufacturer photographs were approved for redistribution. [Import and review details](CATALOGUE.md#research-listings).
 
 There are **211 visual styles across 35 populated categories**: 207 code-defined drawings, one generic generated lever style and three generated product-reference cutout styles. The 208 generic styles are not product photographs. Four product records map to the three reference styles because the front-wheel image is reused as an approximate rear-wheel appearance. There are **zero exact manufacturer-photo previews**. Other product records use labelled generic approximations.
 
 The wheel, saddle and crank cutouts approximate material, shape and lighting. They are not exact manufacturer photographs, dimensioned models or endorsements. [Catalogue extension](CATALOGUE.md) · [Image provenance](docs/ASSETS.md).
 
 ## A look inside
+
+On phones, keep the bicycle visible while styling, use **Browse full screen** for longer searches, and return to the bicycle after applying a part. Detailed masking remains easiest on desktop. [Mobile workflow](docs/USER-GUIDE.md#on-a-phone).
+
+[Phone editor](docs/images/mobile-editor.png) · [Expanded phone component picker](docs/images/mobile-catalogue.png)
 
 ![Real component choices available beside the bicycle](docs/images/components.png)
 

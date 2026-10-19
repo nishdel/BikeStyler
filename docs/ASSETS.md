@@ -26,4 +26,10 @@ Component lighting controls affect displayed RGB while preserving alpha. Photogr
 
 ## Screenshots
 
-[Editor](images/editor.png), [component picker](images/components.png), [catalogue](images/catalogue.png) and [comparison](images/comparison.png) are captures of the running application with the contributed sanitized example. They are not generated mockups. Browser chrome, accounts and unrelated desktop content are excluded. Image metadata is removed before publication.
+[Editor](images/editor.png), [component picker](images/components.png), [catalogue](images/catalogue.png) , [comparison](images/comparison.png), [phone editor](images/mobile-editor.png) and [phone picker](images/mobile-catalogue.png) are captures of the running application with the contributed sanitized example. They are not generated mockups. Browser chrome, accounts and unrelated desktop content are excluded. Image metadata is removed before publication.
+
+## October catalogue image review
+
+The additional research snapshot includes 22,534 image-reference records, all marked with unverified permission. None of its 73 bundled reference JPEGs or seven STEP files is redistributed here. All 73 priority images were visually inspected; the [review ledger](../research/catalogue-review.json) records each result and category corrections. Fifty-eight candidates can use existing generic styles; fifteen remain catalogue-only. No new photograph, cutout or generated image was added in this update.
+
+An image being publicly downloadable does not establish permission to modify and redistribute it. For example, [Hope's asset library](https://assets.hopetech.com/) requires permission to modify its assets. BikeStyler retains source links as references and does not hotlink those images into the editor. Existing generated-reference labels and asset permissions above remain unchanged.

@@ -22,6 +22,16 @@ The implemented fields include clamp and seatpost diameters, bead-seat diameter,
 
 Passing these checks does not establish whole-bicycle compatibility. Chainline, coupled drivetrain behaviour, strength, clearance under load, routing and unlisted interfaces are outside the checks. Product data can become outdated. The visualization and filter should not be your sole basis for a purchase.
 
+## Source listings
+
+Source listings also appear under **Visual styles → Real parts**. Their cards say **Generic shape preview** and **Fitment unknown**. **Choose variant** loads the supplier's explicit options; unavailable options remain visible with their snapshot status. Selecting an option does not infer dimensions or physical fit. The full source catalogue includes entries without supported previews and explains category corrections in **Product reference**.
+
+## On a phone
+
+Start with a prepared bicycle or reopen an editable project. Select a component in the horizontal component strip, choose **Real parts**, and search by brand or model. **Browse full screen** expands the controls for longer browsing; applying a choice returns to the half-height panel and bicycle. **Back to bicycle** also restores that view. The panel handle collapses controls when comparing or exporting.
+
+Search and variant controls use larger touch targets and respond to orientation and visual-viewport changes. The catalogue remembers filters and page while moving between its collections. Use the original desktop setup workflow for detailed photo masking and anchor correction; phone layouts do not automate that precision work.
+
 ## Save, compare and export
 
 Edits autosave in this browser's IndexedDB. Watch for **Saved locally**. **Save design** keeps a named variation; **Compare** lets you choose the original on white, the current design or a saved design on either side of the slider.

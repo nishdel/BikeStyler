@@ -1,4 +1,5 @@
 import ProductBrowser from "./ProductBrowser";
+import ResearchBrowser from "./ResearchBrowser";
 import { PRODUCT_DATA } from "./products";
 import { embedEntry } from "./portable";
 import { useState, useEffect } from "react";
@@ -22,6 +23,7 @@ export default function Catalogue({
   notify: (s: string) => void;
   initialMode?: "visual" | "products";
 }) {
+  const [research, setResearch] = useState(false);
   const [mode, setMode] = useState<"visual" | "products">(initialMode),
     [visibleCards, setVisibleCards] = useState(48);
   const [category, setCategory] = useState<Category>("tyres"),
@@ -176,6 +178,8 @@ export default function Catalogue({
         [part.id]: {
           ...p.styles[part.id],
           entryId: chosen.id,
+          product: undefined,
+          listing: undefined,
           approvedApproximation: approved,
         },
       },
@@ -197,8 +201,8 @@ export default function Catalogue({
             <span className="eyebrow">THE PARTS SHELF</span>
             <h2>A little change. A different ride.</h2>
             <p>
-              {CATALOGUE.length} visual styles ·{" "}
-              {PRODUCT_DATA.products.length} sourced product records · offline
+            {CATALOGUE.length} visual styles ·{" "}
+              {PRODUCT_DATA.products.length} reviewed records + source listings · offline
             </p>
           </div>
           <button
@@ -225,7 +229,11 @@ export default function Catalogue({
         </div>
         {mode === "products" ? (
           <div className="catalogue-products">
-            <ProductBrowser project={p} onChange={onChange} notify={notify} onPreview={onClose}/>
+            <div className="catalogue-collections" role="group" aria-label="Product collections">
+              <button aria-pressed={!research} onClick={()=>setResearch(false)}>Reviewed products & fit</button>
+              <button aria-pressed={research} onClick={()=>setResearch(true)}>Expanded source catalogue</button>
+            </div>
+            {research ? <ResearchBrowser project={p} onChange={onChange} notify={notify} onPreview={onClose}/> : <ProductBrowser project={p} onChange={onChange} notify={notify} onPreview={onClose}/>}
           </div>
         ) : (
           <>

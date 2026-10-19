@@ -677,5 +677,6 @@ export function getPartStyleSummary(
   p?: Project,
 ) {
   if (!style || (!style.entryId && !style.colour)) return "Original";
+  if (style.listing) return `${style.listing.brand} ${style.listing.name} · generic`;
   return (p && entryFor(p, style.entryId)?.name) || style.colour || "Custom";
 }

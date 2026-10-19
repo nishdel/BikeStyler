@@ -29,6 +29,10 @@ The Playwright config defaults to `.cache/browsers`; use `PLAYWRIGHT_BROWSERS_PA
 
 `BIKESTYLER_TEST_PORT` and `BIKESTYLER_PREVIEW_PORT` select isolated test ports. `CI=true` prevents reuse of an unrelated server. Tests use disposable browser contexts and public fixture data. Diagnostic traces remain ignored locally and are not uploaded by CI.
 
+## Research catalogue maintenance
+
+Catalogue maintainers can optionally use Python 3.10+ from the standard library to reimport the research ZIP. It is not an application runtime dependency. Run `python tests/catalogue_options_check.py` for the three protected source-option checks; see [CATALOGUE.md](../CATALOGUE.md#research-listings) for the importer and review workflow. Committed normalized metadata keeps ordinary installation independent of the private source archive.
+
 ## Offline operation and privacy
 
 Package installation and Playwright browser installation require downloads unless already cached. The built app serves its fonts through system font stacks and its images/scripts locally. The service worker precaches the build and bundled assets on the first successful production load; wait for **Ready offline**. That initial cache needs enough browser storage and a complete response from the local server.

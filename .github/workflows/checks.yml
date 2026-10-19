@@ -20,6 +20,7 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run typecheck
+      - run: python3 tests/catalogue_options_check.py
       - run: npm test
       - run: npm run build
       - run: npx playwright install --with-deps chromium firefox webkit

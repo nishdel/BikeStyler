@@ -10,4 +10,16 @@ def variant_label(variant):
     If no meaningful options remain, use a nonempty non-default name, otherwise
     'Standard'. Do not interpret dimensions, colours, availability or fitment.
     """
-    return variant.get("name", "Standard")
+    def clean(value):
+        return " ".join(str(value).split()) if value is not None else ""
+
+    labels = []
+    for name, value in (variant.get("options") or {}).items():
+        name, value = clean(name), clean(value)
+        if not name or not value or (name.casefold() == "title" and value.casefold() == "default title"):
+            continue
+        labels.append(f"{name}: {value}")
+    if labels:
+        return " · ".join(labels)
+    fallback = clean(variant.get("name"))
+    return fallback if fallback and fallback.casefold() != "default title" else "Standard"

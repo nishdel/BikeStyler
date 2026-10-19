@@ -23,7 +23,7 @@ export default defineConfig({
   projects: [
     {
       name: "firefox",
-      testMatch: ["**/expansion.spec.ts", "**/realism.spec.ts", "**/photographic.spec.ts"],
+      testMatch: ["**/expansion.spec.ts", "**/realism.spec.ts", "**/photographic.spec.ts", "**/catalogue-mobile.spec.ts"],
       use: {
         ...devices["Desktop Firefox"],
         viewport: { width: 1440, height: 1000 },
@@ -31,7 +31,7 @@ export default defineConfig({
     },
     {
       name: "webkit",
-      testMatch: ["**/expansion.spec.ts", "**/realism.spec.ts", "**/photographic.spec.ts"],
+      testMatch: ["**/expansion.spec.ts", "**/realism.spec.ts", "**/photographic.spec.ts", "**/catalogue-mobile.spec.ts"],
       use: {
         ...devices["Desktop Safari"],
         viewport: { width: 1440, height: 1000 },

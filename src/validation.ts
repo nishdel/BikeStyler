@@ -78,6 +78,25 @@ function point(x: unknown) {
 function style(x: unknown) {
   const s = object(x);
   if (s.product !== undefined) validateProductSelection(s.product);
+  if (s.listing !== undefined) {
+    if (s.product !== undefined) fail("a style cannot select a reviewed product and a source listing together.");
+    const l = object(s.listing);
+    one(l.version, [1]); one(l.compatibility, ["unknown"]);
+    one(l.classificationReview, ["reviewed", "provisional"]);
+    one(l.category, CATEGORIES.map(c => c.id));
+    for (const key of ["catalogueId", "listingId"]) if (!/^[a-zA-Z0-9][a-zA-Z0-9_-]{0,159}$/.test(string(l[key],160))) fail("invalid listing identity.");
+    string(l.name, 500); string(l.brand, 160);
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(string(l.asOf,10))) fail("invalid source snapshot date.");
+    let u: URL;
+    try { u = new URL(string(l.productUrl,2000)); } catch { fail("invalid listing source URL."); }
+    if (u!.protocol !== "https:" || u!.username || u!.password || u!.hostname === "localhost" || /^[\d.:[\]]+$/.test(u!.hostname)) fail("listing sources must be public HTTPS URLs.");
+    if (l.variant !== undefined) {
+      const v = object(l.variant); string(v.id,160); string(v.label,1000); bool(v.available);
+      const options = object(v.options);
+      if (Object.keys(options).length > 30) fail("too many variant options.");
+      for (const [key,value] of Object.entries(options)) { string(key,160); if(typeof value === "number") number(value); else string(value,500); }
+    }
+  }
   if (s.layerOrder !== undefined) number(s.layerOrder, -100, 100);
   if (s.mirror !== undefined) bool(s.mirror);
   if (s.entryId !== undefined) string(s.entryId, 100);
@@ -332,6 +351,8 @@ export function parseProject(text: string): Project {
     for (const [id, s] of Object.entries(settings.styles)) {
       const part = project.parts.find((t) => t.id === id);
       if (!part) fail("a design refers to an unknown part.");
+      if (s.listing && s.listing.category !== part?.category)
+        fail("a source listing belongs to a different component category.");
       if (
         s.entryId &&
         (!known.has(s.entryId) ||

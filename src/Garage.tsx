@@ -52,6 +52,7 @@ export default function Garage({
     [transform, setTransform] = useState<ViewTransform>(),
     [latency, setLatency] = useState(0),
     [drawer, setDrawer] = useState(true),
+    [expandedSheet, setExpandedSheet] = useState(false),
     [activeDecal, setActiveDecal] = useState<string>(),
     [approx, setApprox] = useState(false);
   const view = useRef<HTMLCanvasElement>(null),
@@ -178,7 +179,7 @@ export default function Garage({
     const ids = [part.id];
     if (linkFrame && ["frame", "fork"].includes(part.id))
       ids.push(part.id === "frame" ? "fork" : "frame");
-    if (linkWheels && part.wheel && (!change.product || change.product.product.category === "wheelsets")) {
+    if (linkWheels && part.wheel && !change.listing && (!change.product || change.product.product.category === "wheelsets")) {
       const peer = part.id.startsWith("front")
         ? part.id.replace("front", "rear")
         : part.id.replace("rear", "front");
@@ -197,7 +198,7 @@ export default function Garage({
           delete next[side + "-wheel"];
       }
       if (reset)
-        next[id] = next[id]?.product ? { product: next[id].product } : {};
+        next[id] = next[id]?.product ? { product: next[id].product } : next[id]?.listing ? {listing: next[id].listing} : {};
       else next[id] = { ...next[id], ...change };
     }
     onChange({ ...p, styles: next });
@@ -216,6 +217,7 @@ export default function Garage({
     setStyle({
       entryId: entry.id,
       product: undefined,
+      listing: undefined,
       approvedApproximation: approx || style.approvedApproximation,
     });
   }
@@ -319,7 +321,7 @@ export default function Garage({
       (id) => p.parts.find((t) => t.id === id)?.status === "confirmed",
     );
   return (
-    <main className={`garage ${clean ? "clean-mode" : ""}`}>
+    <main className={`garage ${clean ? "clean-mode" : ""} ${expandedSheet ? "sheet-full" : ""} ${drawer ? "sheet-open" : "sheet-collapsed"}`}>
       <section className="garage-main">
         <div className="workspace-heading">
           <div>
@@ -617,7 +619,8 @@ export default function Garage({
         >
           <button
             className="drawer-handle"
-            onClick={() => setDrawer(!drawer)}
+            onClick={() => {setDrawer(!drawer);setExpandedSheet(false)}}
+            aria-expanded={drawer}
             aria-label={
               drawer ? "Collapse component panel" : "Expand component panel"
             }
@@ -629,6 +632,7 @@ export default function Garage({
               <span className="eyebrow">MAKE IT YOURS</span>
               <h2>{part.name}</h2>
             </div>
+            <button className="sheet-expand" onClick={()=>{setExpandedSheet(!expandedSheet);setDrawer(true)}}>{expandedSheet?'Back to bicycle':'Browse full screen'}</button>
             <button
               className={part.locked ? "lock-button locked" : "lock-button"}
               onClick={() =>
@@ -693,7 +697,7 @@ export default function Garage({
                   </div>
                   {visualMode!=='styles'&&<ProductVisualPicker key={`${part.id}:${visualMode}`} project={p} part={part} compatible={visualMode==='compatible'} onCatalogue={()=>onCatalogue('products')} onApply={change=>{
                     if(wheelMissing){notify('Confirm frame and fork masks before replacing wheels.');return;}
-                    setStyle(change);notify('Product preview applied. Appearance does not establish physical fit.');
+                    setStyle(change);setExpandedSheet(false);notify('Product preview applied. Appearance does not establish physical fit.');
                   }}/>}
                 </>}
                 {(visualMode==='styles'||!entries.length)&&<>

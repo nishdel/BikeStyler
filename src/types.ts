@@ -107,6 +107,7 @@ export type Part = {
 };
 export type Finish = "satin" | "gloss" | "matte" | "metallic";
 export type PartStyle = {
+  listing?: import("./researchCatalogue").ListingSelection;
   product?: ProductSelection;
   layerOrder?: number;
   mirror?: boolean;

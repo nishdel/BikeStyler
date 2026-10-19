@@ -9,3 +9,9 @@ README and focused `docs/` Markdown are canonical public documentation. Update t
 The owner's existing [OmniLAB documentation system](https://github.com/nishdel/OmniLAB-Local-Agent-Bridge-) can register this repository with an exact local root, reviewed document allowlist, source-access boundaries and revision provenance. These settings belong in private integration configuration. Existing memory controls, resource guards and other project registrations are independent of BikeStyler.
 
 Staging documentation, completing a native wiki lifecycle and embedding documents into an Open WebUI knowledge base are different operations. A resource-deferred index is not a synchronized index. Check revision and last-success status before relying on retrieved excerpts. No generated Q&A or model-inference acceptance is implied by successful deterministic registration/search.
+
+## Catalogue and mobile update workflow
+
+Use an isolated feature worktree of the canonical public checkout, retain the supplied research archive privately, and commit only reviewed metadata, code and documentation. Integrate the tested feature branch by a normal fast-forward or reviewed merge; the archival pre-publication app remains separate. Reimport from the original archive only when intentionally updating the snapshot.
+
+The October catalogue work used LAB for bounded implementation attempts and protected acceptance evidence. The full-repository attempt exceeded its snapshot budget; the reduced task reached the whole-host RAM stop during model startup. Neither produced an accepted patch. Codex completed and checked the implementation directly, without relaxing LAB limits or changing its model. Private job evidence stays in the existing LAB records. No local-model contribution or token-savings claim follows from those attempts.

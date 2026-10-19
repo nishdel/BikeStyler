@@ -12,6 +12,8 @@ private/
 *.local
 *.log
 *.tsbuildinfo
+__pycache__/
+*.pyc
 *.bike.json
 !public/sample/sample.bike.json
 !public/sample/champagne.bike.json

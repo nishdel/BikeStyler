@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "preparedAt": "2026-10-18",
+  "tool": "OpenAI ImageGen during development",
+  "permission": "Contributor-authorized publication; no licence to manufacturer source photographs or trademarks is implied.",
+  "assets": [
+    {
+      "id": "photo-brooks-b17",
+      "label": "Brooks B17 Racing Green — generated appearance approximation",
+      "productIds": [
+        "vintage-brooks-england-b17"
+      ],
+      "file": "brooks-b17-racing-green-reference-generated.webp",
+      "origin": "Generated appearance approximation, using product references; not a manufacturer photograph.",
+      "references": [
+        {
+          "sourcePageUrl": "https://www.brooksengland.com/en-gb/products/saddles-leather-b17-racing-green-b211000a07207",
+          "imageUrl": "https://www.brooksengland.com/cdn/shop/files/fec918cdf3b3adfedf66a244be9266c124f1238f_B211000A07207_B211000A07207_Brooks_England_4_B17_british_racing_green_right_side.jpg?v=1790175865&width=1600",
+          "role": "Manufacturer right-side product reference; pixels inspected."
+        }
+      ],
+      "geometry": {
+        "width": 1774,
+        "height": 887,
+        "mount": {
+          "label": "Approximate middle rail clamp location, partly occluded by leather skirt",
+          "pixels": {
+            "x": 850,
+            "y": 650
+          },
+          "normalized": {
+            "x": 0.4791431792559188,
+            "y": 0.7328072153325818
+          }
+        },
+        "orientation": "Nose right; slight top visibility; no seatpost or clamp"
+      },
+      "limitations": [
+        "Exact leather colour, embossing and rivet layout may differ from the manufacturer.",
+        "Rail mount position is a visual estimate; adjust to the photograph's seatpost clamp."
+      ]
+    },
+    {
+      "id": "photo-velo-orange-enterprise",
+      "label": "Velo Orange Enterprise front wheel — generated appearance approximation",
+      "productIds": [
+        "velo-orange-enterprise-front-wheel"
+      ],
+      "file": "velo-orange-enterprise-front-reference-generated.webp",
+      "origin": "Generated appearance approximation, using product references; not a manufacturer photograph.",
+      "references": [
+        {
+          "sourcePageUrl": "https://velo-orange.com/products/copy-of-700c-pbp-front-wheel",
+          "imageUrl": "https://velo-orange.com/cdn/shop/files/DSC04717-2.jpg?v=1783616516",
+          "downloadUrl": "https://cdn.shopify.com/s/files/1/2196/9775/files/DSC04717-2.jpg?v=1783616516",
+          "role": "Complete front wheel; manufacturer product image pixels inspected."
+        },
+        {
+          "sourcePageUrl": "https://velo-orange.com/products/copy-of-700c-pbp-front-wheel",
+          "imageUrl": "https://velo-orange.com/cdn/shop/products/frontrimbrake.jpg?v=1605037063",
+          "downloadUrl": "https://cdn.shopify.com/s/files/1/2196/9775/products/frontrimbrake.jpg?v=1605037063",
+          "role": "Manufacturer hub/rim close-up; pixels inspected."
+        }
+      ],
+      "geometry": {
+        "width": 1254,
+        "height": 1254,
+        "mount": {
+          "label": "Hub axle centre, visual estimate",
+          "pixels": {
+            "x": 629,
+            "y": 641
+          },
+          "normalized": {
+            "x": 0.5015948963317385,
+            "y": 0.511164274322169
+          }
+        },
+        "outerRim": {
+          "pixels": {
+            "cx": 625.68,
+            "cy": 621.5,
+            "radius": 589.83
+          },
+          "normalized": {
+            "cx": 0.4989473684210526,
+            "cy": 0.4956140350877193,
+            "radius": 0.4703588516746412
+          },
+          "method": "Radial outer-alpha boundary samples (>230) every 2 degrees and least-squares circle fit",
+          "sampledRadiusRange": [
+            586.82,
+            591.47
+          ]
+        },
+        "orientation": "Near-circular side-on source. Rim/spokes/front hub only; no tyre."
+      },
+      "limitations": [
+        "Axle is about 20 pixels below the fitted circle centre; application may use a calibrated source axle offset.",
+        "Front wheel reference only. Reuse as a rear wheel must be labelled illustrative; the correct rear hub/freehub and dish are not depicted.",
+        "Spoke count/lacing and logo omissions are visual approximations; manufacturer size variant is not established from the reference pixels."
+      ]
+    },
+    {
+      "id": "photo-ene-ciclo-double",
+      "label": "ENE Ciclo silver double — generated foreshortened appearance approximation",
+      "productIds": [
+        "vintage-ene-ciclo-dia-compe-chain-wheel-double"
+      ],
+      "file": "ene-ciclo-double-foreshortened-generated.webp",
+      "origin": "Generated appearance approximation, using product references; not a manufacturer photograph.",
+      "references": [
+        {
+          "sourcePageUrl": "https://www.diacompe.com.tw/product/ene-ciclo-chain-wheel-double/",
+          "imageUrl": "https://www.diacompe.com.tw/wp-content/uploads/2021/06/ENE-CICLO-CHAIN-WHEEL-DOUBLE-575x380.jpg",
+          "role": "Manufacturer assembled drive-side crank reference. Extra loose components intentionally excluded; pixels inspected."
+        }
+      ],
+      "geometry": {
+        "width": 1254,
+        "height": 1254,
+        "mount": {
+          "label": "Spindle centre, visual estimate",
+          "pixels": {
+            "x": 617,
+            "y": 678
+          },
+          "normalized": {
+            "x": 0.4920255183413078,
+            "y": 0.5406698564593302
+          }
+        },
+        "outerRing": {
+          "pixels": {
+            "cx": 593,
+            "cy": 673,
+            "radius": 544
+          },
+          "normalized": {
+            "cx": 0.4728867623604466,
+            "cy": 0.5366826156299841,
+            "radius": 0.43381180223285487
+          },
+          "method": "Visual tooth-tip circle estimate; tooth tips and gaps vary."
+        },
+        "pedalEye": {
+          "pixels": {
+            "x": 1059,
+            "y": 244.5
+          },
+          "normalized": {
+            "x": 0.8444976076555024,
+            "y": 0.19497607655502391
+          },
+          "method": "Transparent inner-eye connected-component bounding box centre"
+        },
+        "armAngleDegrees": -44.44374777291934,
+        "armEyeDistancePixels": 619.1011629774249,
+        "armEyeDistanceToOuterRingRadius": 1.138053608414384,
+        "orientation": "Drive-side, arm upper right. Whole-raster angle can be adjusted in app."
+      },
+      "limitations": [
+        "The deliberately shortened arm is a visual fit for a foreshortened photograph, not actual ENE mechanical geometry.",
+        "Exact reference ring tooth count and arm-length variant are unresolved.",
+        "Spindle and approximate tooth-tip circle are slightly off-centre. Calibrate using the spindle attachment, not the canvas centre.",
+        "No pedal, chain or bottom bracket; retain source pedal only if its attachment aligns."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BikeStyler data-only catalogue pack v1",
+  "type": "object",
+  "properties": {
+    "format": {
+      "const": "bikestyler-catalogue"
+    },
+    "version": {
+      "const": 1
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9_-]+$",
+            "maxLength": 100
+          },
+          "category": {
+            "enum": [
+              "frame",
+              "fork",
+              "tyres",
+              "wheels",
+              "rims",
+              "spokes",
+              "hubs",
+              "handlebars",
+              "tape",
+              "hoods",
+              "brakes",
+              "saddles",
+              "stems",
+              "seatposts",
+              "pedals",
+              "bottles",
+              "mudguards",
+              "racks",
+              "bags",
+              "lights",
+              "decals",
+              "custom",
+              "brake_levers",
+              "controls",
+              "shifters",
+              "cranksets",
+              "chainrings",
+              "bottom_brackets",
+              "chains",
+              "freewheels",
+              "cassettes",
+              "derailleurs",
+              "tubes",
+              "adapters",
+              "grips",
+              "baskets",
+              "cargo_cages",
+              "disc_rotors"
+            ]
+          },
+          "name": {
+            "type": "string",
+            "maxLength": 100
+          },
+          "description": {
+            "type": "string",
+            "maxLength": 1000
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxLength": 60
+            },
+            "maxItems": 30
+          },
+          "renderer": {
+            "enum": [
+              "frame",
+              "fork",
+              "tyres",
+              "wheels",
+              "rims",
+              "spokes",
+              "hubs",
+              "handlebars",
+              "tape",
+              "hoods",
+              "brakes",
+              "saddles",
+              "stems",
+              "seatposts",
+              "pedals",
+              "bottles",
+              "mudguards",
+              "racks",
+              "bags",
+              "lights",
+              "decals",
+              "brake_levers",
+              "controls",
+              "shifters",
+              "cranksets",
+              "chainrings",
+              "bottom_brackets",
+              "chains",
+              "freewheels",
+              "cassettes",
+              "derailleurs",
+              "tubes",
+              "adapters",
+              "grips",
+              "baskets",
+              "cargo_cages",
+              "disc_rotors",
+              "expanded-brake_levers",
+              "expanded-controls",
+              "expanded-shifters",
+              "expanded-cranksets",
+              "expanded-chainrings",
+              "expanded-bottom_brackets",
+              "expanded-chains",
+              "expanded-freewheels",
+              "expanded-cassettes",
+              "expanded-derailleurs",
+              "expanded-tubes",
+              "expanded-adapters",
+              "expanded-grips",
+              "expanded-baskets",
+              "expanded-cargo_cages",
+              "expanded-disc_rotors",
+              "asset"
+            ]
+          },
+          "parameters": {
+            "type": "object",
+            "maxProperties": 40,
+            "propertyNames": {
+              "pattern": "^[A-Za-z][A-Za-z0-9]*$"
+            },
+            "additionalProperties": {
+              "oneOf": [
+                {
+                  "type": "number",
+                  "minimum": -1000,
+                  "maximum": 1000
+                },
+                {
+                  "type": "string",
+                  "maxLength": 80
+                },
+                {
+                  "type": "boolean"
+                }
+              ]
+            }
+          },
+          "colours": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^#[0-9a-fA-F]{6}$"
+            },
+            "maxItems": 30
+          },
+          "anchors": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "maxLength": 50
+                },
+                "x": {
+                  "type": "number",
+                  "minimum": -100,
+                  "maximum": 200
+                },
+                "y": {
+                  "type": "number",
+                  "minimum": -100,
+                  "maximum": 200
+                }
+              },
+              "required": [
+                "name",
+                "x",
+                "y"
+              ],
+              "additionalProperties": false
+            },
+            "maxItems": 10
+          },
+          "view": {
+            "const": "side"
+          },
+          "orientation": {
+            "const": "both"
+          },
+          "licence": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "provenance": {
+            "type": "string",
+            "maxLength": 500
+          },
+          "limitations": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxLength": 600
+            },
+            "maxItems": 20
+          },
+          "asset": {
+            "type": "string",
+            "maxLength": 8388608,
+            "pattern": "^data:image/(png|webp);base64,[A-Za-z0-9+/]+=*$"
+          },
+          "custom": {
+            "type": "boolean"
+          },
+          "thumbnail": {
+            "type": "string",
+            "maxLength": 94371840,
+            "pattern": "^data:image/(png|jpeg|webp);base64,[A-Za-z0-9+/]+=*$"
+          },
+          "visualOrigin": {
+            "enum": [
+              "deterministic_render",
+              "generated_illustration",
+              "licensed_photo",
+              "user_photo"
+            ]
+          },
+          "assetId": {
+            "type": "string",
+            "maxLength": 160
+          },
+          "assetView": {
+            "type": "string",
+            "maxLength": 80
+          },
+          "embeddingAllowed": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "category",
+          "name",
+          "description",
+          "tags",
+          "renderer",
+          "parameters",
+          "colours",
+          "anchors",
+          "view",
+          "orientation",
+          "licence",
+          "provenance",
+          "limitations"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 600
+    }
+  },
+  "required": [
+    "format",
+    "version",
+    "entries"
+  ],
+  "additionalProperties": false
+}

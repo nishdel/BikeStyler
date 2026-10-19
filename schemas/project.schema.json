@@ -1,0 +1,1907 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BikeStyler portable project v2 (v1 migration accepted)",
+  "type": "object",
+  "properties": {
+    "format": {
+      "const": "bikestyler-project"
+    },
+    "version": {
+      "enum": [
+        1,
+        2
+      ]
+    },
+    "id": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "name": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "createdAt": {
+      "type": "string",
+      "maxLength": 50
+    },
+    "updatedAt": {
+      "type": "string",
+      "maxLength": 50
+    },
+    "original": {
+      "type": "string",
+      "maxLength": 37748736,
+      "pattern": "^data:image/(png|jpeg|webp);base64,[A-Za-z0-9+/]+=*$"
+    },
+    "source": {
+      "type": "string",
+      "maxLength": 94371840,
+      "pattern": "^data:image/(png|jpeg|webp);base64,[A-Za-z0-9+/]+=*$"
+    },
+    "width": {
+      "type": "number",
+      "minimum": 100,
+      "maximum": 4096
+    },
+    "height": {
+      "type": "number",
+      "minimum": 100,
+      "maximum": 4096
+    },
+    "workWidth": {
+      "type": "number",
+      "minimum": 1,
+      "maximum": 1440
+    },
+    "workHeight": {
+      "type": "number",
+      "minimum": 1,
+      "maximum": 1440
+    },
+    "cutout": {
+      "type": "string",
+      "maxLength": 94371840,
+      "pattern": "^data:image/png;base64,[A-Za-z0-9+/]+=*$"
+    },
+    "protection": {
+      "type": "string",
+      "maxLength": 94371840,
+      "pattern": "^data:image/png;base64,[A-Za-z0-9+/]+=*$"
+    },
+    "orientation": {
+      "enum": [
+        "left",
+        "right"
+      ]
+    },
+    "parts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "maxLength": 100
+          },
+          "name": {
+            "type": "string",
+            "maxLength": 100
+          },
+          "category": {
+            "enum": [
+              "frame",
+              "fork",
+              "tyres",
+              "wheels",
+              "rims",
+              "spokes",
+              "hubs",
+              "handlebars",
+              "tape",
+              "hoods",
+              "brakes",
+              "saddles",
+              "stems",
+              "seatposts",
+              "pedals",
+              "bottles",
+              "mudguards",
+              "racks",
+              "bags",
+              "lights",
+              "decals",
+              "custom",
+              "brake_levers",
+              "controls",
+              "shifters",
+              "cranksets",
+              "chainrings",
+              "bottom_brackets",
+              "chains",
+              "freewheels",
+              "cassettes",
+              "derailleurs",
+              "tubes",
+              "adapters",
+              "grips",
+              "baskets",
+              "cargo_cages",
+              "disc_rotors"
+            ]
+          },
+          "marker": {
+            "type": "object",
+            "properties": {
+              "x": {
+                "type": "number",
+                "minimum": -100000,
+                "maximum": 100000
+              },
+              "y": {
+                "type": "number",
+                "minimum": -100000,
+                "maximum": 100000
+              }
+            },
+            "required": [
+              "x",
+              "y"
+            ],
+            "additionalProperties": false
+          },
+          "status": {
+            "enum": [
+              "suggested",
+              "confirmed",
+              "missing"
+            ]
+          },
+          "locked": {
+            "type": "boolean"
+          },
+          "mask": {
+            "type": "string",
+            "maxLength": 94371840,
+            "pattern": "^data:image/png;base64,[A-Za-z0-9+/]+=*$"
+          },
+          "protection": {
+            "type": "string",
+            "maxLength": 94371840,
+            "pattern": "^data:image/png;base64,[A-Za-z0-9+/]+=*$"
+          },
+          "anchor": {
+            "type": "object",
+            "properties": {
+              "x": {
+                "type": "number",
+                "minimum": -100000,
+                "maximum": 100000
+              },
+              "y": {
+                "type": "number",
+                "minimum": -100000,
+                "maximum": 100000
+              },
+              "width": {
+                "type": "number",
+                "minimum": 0.1,
+                "maximum": 20000
+              },
+              "height": {
+                "type": "number",
+                "minimum": 0.1,
+                "maximum": 20000
+              },
+              "rotation": {
+                "type": "number",
+                "minimum": -720,
+                "maximum": 720
+              }
+            },
+            "required": [
+              "x",
+              "y",
+              "width",
+              "height",
+              "rotation"
+            ],
+            "additionalProperties": false
+          },
+          "wheel": {
+            "type": "object",
+            "properties": {
+              "cx": {
+                "type": "number",
+                "minimum": -100000,
+                "maximum": 100000
+              },
+              "cy": {
+                "type": "number",
+                "minimum": -100000,
+                "maximum": 100000
+              },
+              "rx": {
+                "type": "number",
+                "minimum": 1,
+                "maximum": 5000
+              },
+              "ry": {
+                "type": "number",
+                "minimum": 1,
+                "maximum": 5000
+              },
+              "innerRatio": {
+                "type": "number",
+                "minimum": 0.4,
+                "maximum": 0.99
+              },
+              "rimRatio": {
+                "type": "number",
+                "minimum": 0.1,
+                "maximum": 0.98
+              },
+              "rotation": {
+                "type": "number",
+                "minimum": -1080,
+                "maximum": 1080
+              },
+              "hubX": {
+                "type": "number",
+                "minimum": -100000,
+                "maximum": 100000
+              },
+              "hubY": {
+                "type": "number",
+                "minimum": -100000,
+                "maximum": 100000
+              }
+            },
+            "required": [
+              "cx",
+              "cy",
+              "rx",
+              "ry",
+              "innerRatio",
+              "rimRatio"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "category",
+          "marker",
+          "status",
+          "locked",
+          "anchor"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 100,
+      "minItems": 1
+    },
+    "styles": {
+      "type": "object",
+      "maxProperties": 200,
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "entryId": {
+            "type": "string",
+            "maxLength": 100
+          },
+          "colour": {
+            "type": "string",
+            "pattern": "^#[0-9a-fA-F]{6}$"
+          },
+          "finish": {
+            "enum": [
+              "satin",
+              "gloss",
+              "matte",
+              "metallic"
+            ]
+          },
+          "scale": {
+            "type": "number",
+            "minimum": 0.1,
+            "maximum": 4
+          },
+          "widthScale": {
+            "type": "number",
+            "minimum": 0.25,
+            "maximum": 2
+          },
+          "heightScale": {
+            "type": "number",
+            "minimum": 0.25,
+            "maximum": 2
+          },
+          "skew": {
+            "type": "number",
+            "minimum": -45,
+            "maximum": 45
+          },
+          "crankAngle": {
+            "type": "number",
+            "minimum": -180,
+            "maximum": 180
+          },
+          "crankReach": {
+            "type": "number",
+            "minimum": 0.35,
+            "maximum": 1.35
+          },
+          "brightness": {
+            "type": "number",
+            "minimum": 0.5,
+            "maximum": 1.5
+          },
+          "contrast": {
+            "type": "number",
+            "minimum": 0.5,
+            "maximum": 1.5
+          },
+          "warmth": {
+            "type": "number",
+            "minimum": -1,
+            "maximum": 1
+          },
+          "rotation": {
+            "type": "number",
+            "minimum": -360,
+            "maximum": 360
+          },
+          "offsetX": {
+            "type": "number",
+            "minimum": -100000,
+            "maximum": 100000
+          },
+          "offsetY": {
+            "type": "number",
+            "minimum": -100000,
+            "maximum": 100000
+          },
+          "opacity": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "approvedApproximation": {
+            "type": "boolean"
+          },
+          "product": {
+            "type": "object",
+            "properties": {
+              "product": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "maxLength": 160
+                  },
+                  "brand": {
+                    "type": "string",
+                    "maxLength": 150
+                  },
+                  "model": {
+                    "type": "string",
+                    "maxLength": 200
+                  },
+                  "category": {
+                    "type": "string",
+                    "maxLength": 100
+                  },
+                  "family": {
+                    "type": "string",
+                    "maxLength": 200
+                  },
+                  "tags": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "maxLength": 100
+                    },
+                    "maxItems": 40
+                  },
+                  "sourceIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "maxLength": 160
+                    },
+                    "maxItems": 60
+                  },
+                  "status": {
+                    "const": "verified-product"
+                  },
+                  "facts": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "key": {
+                          "type": "string",
+                          "maxLength": 100
+                        },
+                        "value": {
+                          "type": [
+                            "string",
+                            "number",
+                            "boolean"
+                          ]
+                        },
+                        "unit": {
+                          "type": "string",
+                          "maxLength": 80
+                        },
+                        "scope": {
+                          "type": "string",
+                          "maxLength": 1000
+                        },
+                        "sourceId": {
+                          "type": "string",
+                          "maxLength": 160
+                        },
+                        "statement": {
+                          "type": "string",
+                          "maxLength": 4000
+                        }
+                      },
+                      "required": [
+                        "key",
+                        "value",
+                        "scope",
+                        "sourceId",
+                        "statement"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "maxItems": 80
+                  },
+                  "variants": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "maxLength": 160
+                        },
+                        "label": {
+                          "type": "string",
+                          "maxLength": 300
+                        },
+                        "facts": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "key": {
+                                "type": "string",
+                                "maxLength": 100
+                              },
+                              "value": {
+                                "type": [
+                                  "string",
+                                  "number",
+                                  "boolean"
+                                ]
+                              },
+                              "unit": {
+                                "type": "string",
+                                "maxLength": 80
+                              },
+                              "scope": {
+                                "type": "string",
+                                "maxLength": 1000
+                              },
+                              "sourceId": {
+                                "type": "string",
+                                "maxLength": 160
+                              },
+                              "statement": {
+                                "type": "string",
+                                "maxLength": 4000
+                              }
+                            },
+                            "required": [
+                              "key",
+                              "value",
+                              "scope",
+                              "sourceId",
+                              "statement"
+                            ],
+                            "additionalProperties": false
+                          },
+                          "maxItems": 80
+                        },
+                        "sourceIds": {
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "maxLength": 160
+                          },
+                          "maxItems": 60
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "label",
+                        "facts",
+                        "sourceIds"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "maxItems": 150
+                  },
+                  "previewStatus": {
+                    "enum": [
+                      "unavailable",
+                      "reviewed"
+                    ]
+                  },
+                  "previewReason": {
+                    "type": "string",
+                    "maxLength": 2000
+                  },
+                  "visualEntryId": {
+                    "type": "string",
+                    "maxLength": 160
+                  }
+                },
+                "required": [
+                  "id",
+                  "brand",
+                  "model",
+                  "category",
+                  "family",
+                  "tags",
+                  "sourceIds",
+                  "status",
+                  "facts",
+                  "variants",
+                  "previewStatus",
+                  "previewReason"
+                ],
+                "additionalProperties": false
+              },
+              "variantId": {
+                "type": "string",
+                "maxLength": 160
+              },
+              "sources": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "maxLength": 160
+                    },
+                    "url": {
+                      "type": "string",
+                      "format": "uri",
+                      "pattern": "^https://",
+                      "maxLength": 2000
+                    },
+                    "publisher": {
+                      "type": "string",
+                      "maxLength": 160
+                    },
+                    "verifiedAt": {
+                      "type": "string",
+                      "maxLength": 50
+                    },
+                    "kind": {
+                      "type": "string",
+                      "maxLength": 100
+                    },
+                    "scope": {
+                      "type": "string",
+                      "maxLength": 2000
+                    },
+                    "rights": {
+                      "type": "string",
+                      "maxLength": 2000
+                    },
+                    "notes": {
+                      "type": "string",
+                      "maxLength": 4000
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "url",
+                    "publisher",
+                    "verifiedAt",
+                    "kind",
+                    "scope",
+                    "rights"
+                  ],
+                  "additionalProperties": false
+                },
+                "maxItems": 2000
+              }
+            },
+            "required": [
+              "product",
+              "sources"
+            ],
+            "additionalProperties": false
+          },
+          "layerOrder": {
+            "type": "number",
+            "minimum": -100,
+            "maximum": 100
+          },
+          "mirror": {
+            "type": "boolean"
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    "decals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "maxLength": 100
+          },
+          "kind": {
+            "enum": [
+              "stripe",
+              "bands",
+              "number",
+              "text",
+              "chevron",
+              "badge",
+              "artwork"
+            ]
+          },
+          "text": {
+            "type": "string",
+            "maxLength": 100
+          },
+          "colour": {
+            "type": "string",
+            "pattern": "^#[0-9a-fA-F]{6}$"
+          },
+          "x": {
+            "type": "number",
+            "minimum": -100000,
+            "maximum": 100000
+          },
+          "y": {
+            "type": "number",
+            "minimum": -100000,
+            "maximum": 100000
+          },
+          "scale": {
+            "type": "number",
+            "minimum": 0.05,
+            "maximum": 10
+          },
+          "rotation": {
+            "type": "number",
+            "minimum": -360,
+            "maximum": 360
+          },
+          "opacity": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "asset": {
+            "type": "string",
+            "maxLength": 8388608,
+            "pattern": "^data:image/(png|jpeg|webp);base64,[A-Za-z0-9+/]+=*$"
+          },
+          "partId": {
+            "type": "string",
+            "maxLength": 100
+          }
+        },
+        "required": [
+          "id",
+          "kind",
+          "text",
+          "colour",
+          "x",
+          "y",
+          "scale",
+          "rotation",
+          "opacity",
+          "partId"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 100
+    },
+    "designs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "maxLength": 100
+          },
+          "name": {
+            "type": "string",
+            "maxLength": 100
+          },
+          "styles": {
+            "type": "object",
+            "maxProperties": 200,
+            "additionalProperties": {
+              "type": "object",
+              "properties": {
+                "entryId": {
+                  "type": "string",
+                  "maxLength": 100
+                },
+                "colour": {
+                  "type": "string",
+                  "pattern": "^#[0-9a-fA-F]{6}$"
+                },
+                "finish": {
+                  "enum": [
+                    "satin",
+                    "gloss",
+                    "matte",
+                    "metallic"
+                  ]
+                },
+                "scale": {
+                  "type": "number",
+                  "minimum": 0.1,
+                  "maximum": 4
+                },
+                "widthScale": {
+                  "type": "number",
+                  "minimum": 0.25,
+                  "maximum": 2
+                },
+                "heightScale": {
+                  "type": "number",
+                  "minimum": 0.25,
+                  "maximum": 2
+                },
+                "skew": {
+                  "type": "number",
+                  "minimum": -45,
+                  "maximum": 45
+                },
+                "crankAngle": {
+                  "type": "number",
+                  "minimum": -180,
+                  "maximum": 180
+                },
+                "crankReach": {
+                  "type": "number",
+                  "minimum": 0.35,
+                  "maximum": 1.35
+                },
+                "brightness": {
+                  "type": "number",
+                  "minimum": 0.5,
+                  "maximum": 1.5
+                },
+                "contrast": {
+                  "type": "number",
+                  "minimum": 0.5,
+                  "maximum": 1.5
+                },
+                "warmth": {
+                  "type": "number",
+                  "minimum": -1,
+                  "maximum": 1
+                },
+                "rotation": {
+                  "type": "number",
+                  "minimum": -360,
+                  "maximum": 360
+                },
+                "offsetX": {
+                  "type": "number",
+                  "minimum": -100000,
+                  "maximum": 100000
+                },
+                "offsetY": {
+                  "type": "number",
+                  "minimum": -100000,
+                  "maximum": 100000
+                },
+                "opacity": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "approvedApproximation": {
+                  "type": "boolean"
+                },
+                "product": {
+                  "type": "object",
+                  "properties": {
+                    "product": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "maxLength": 160
+                        },
+                        "brand": {
+                          "type": "string",
+                          "maxLength": 150
+                        },
+                        "model": {
+                          "type": "string",
+                          "maxLength": 200
+                        },
+                        "category": {
+                          "type": "string",
+                          "maxLength": 100
+                        },
+                        "family": {
+                          "type": "string",
+                          "maxLength": 200
+                        },
+                        "tags": {
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "maxLength": 100
+                          },
+                          "maxItems": 40
+                        },
+                        "sourceIds": {
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "maxLength": 160
+                          },
+                          "maxItems": 60
+                        },
+                        "status": {
+                          "const": "verified-product"
+                        },
+                        "facts": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "key": {
+                                "type": "string",
+                                "maxLength": 100
+                              },
+                              "value": {
+                                "type": [
+                                  "string",
+                                  "number",
+                                  "boolean"
+                                ]
+                              },
+                              "unit": {
+                                "type": "string",
+                                "maxLength": 80
+                              },
+                              "scope": {
+                                "type": "string",
+                                "maxLength": 1000
+                              },
+                              "sourceId": {
+                                "type": "string",
+                                "maxLength": 160
+                              },
+                              "statement": {
+                                "type": "string",
+                                "maxLength": 4000
+                              }
+                            },
+                            "required": [
+                              "key",
+                              "value",
+                              "scope",
+                              "sourceId",
+                              "statement"
+                            ],
+                            "additionalProperties": false
+                          },
+                          "maxItems": 80
+                        },
+                        "variants": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "id": {
+                                "type": "string",
+                                "maxLength": 160
+                              },
+                              "label": {
+                                "type": "string",
+                                "maxLength": 300
+                              },
+                              "facts": {
+                                "type": "array",
+                                "items": {
+                                  "type": "object",
+                                  "properties": {
+                                    "key": {
+                                      "type": "string",
+                                      "maxLength": 100
+                                    },
+                                    "value": {
+                                      "type": [
+                                        "string",
+                                        "number",
+                                        "boolean"
+                                      ]
+                                    },
+                                    "unit": {
+                                      "type": "string",
+                                      "maxLength": 80
+                                    },
+                                    "scope": {
+                                      "type": "string",
+                                      "maxLength": 1000
+                                    },
+                                    "sourceId": {
+                                      "type": "string",
+                                      "maxLength": 160
+                                    },
+                                    "statement": {
+                                      "type": "string",
+                                      "maxLength": 4000
+                                    }
+                                  },
+                                  "required": [
+                                    "key",
+                                    "value",
+                                    "scope",
+                                    "sourceId",
+                                    "statement"
+                                  ],
+                                  "additionalProperties": false
+                                },
+                                "maxItems": 80
+                              },
+                              "sourceIds": {
+                                "type": "array",
+                                "items": {
+                                  "type": "string",
+                                  "maxLength": 160
+                                },
+                                "maxItems": 60
+                              }
+                            },
+                            "required": [
+                              "id",
+                              "label",
+                              "facts",
+                              "sourceIds"
+                            ],
+                            "additionalProperties": false
+                          },
+                          "maxItems": 150
+                        },
+                        "previewStatus": {
+                          "enum": [
+                            "unavailable",
+                            "reviewed"
+                          ]
+                        },
+                        "previewReason": {
+                          "type": "string",
+                          "maxLength": 2000
+                        },
+                        "visualEntryId": {
+                          "type": "string",
+                          "maxLength": 160
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "brand",
+                        "model",
+                        "category",
+                        "family",
+                        "tags",
+                        "sourceIds",
+                        "status",
+                        "facts",
+                        "variants",
+                        "previewStatus",
+                        "previewReason"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "variantId": {
+                      "type": "string",
+                      "maxLength": 160
+                    },
+                    "sources": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string",
+                            "maxLength": 160
+                          },
+                          "url": {
+                            "type": "string",
+                            "format": "uri",
+                            "pattern": "^https://",
+                            "maxLength": 2000
+                          },
+                          "publisher": {
+                            "type": "string",
+                            "maxLength": 160
+                          },
+                          "verifiedAt": {
+                            "type": "string",
+                            "maxLength": 50
+                          },
+                          "kind": {
+                            "type": "string",
+                            "maxLength": 100
+                          },
+                          "scope": {
+                            "type": "string",
+                            "maxLength": 2000
+                          },
+                          "rights": {
+                            "type": "string",
+                            "maxLength": 2000
+                          },
+                          "notes": {
+                            "type": "string",
+                            "maxLength": 4000
+                          }
+                        },
+                        "required": [
+                          "id",
+                          "url",
+                          "publisher",
+                          "verifiedAt",
+                          "kind",
+                          "scope",
+                          "rights"
+                        ],
+                        "additionalProperties": false
+                      },
+                      "maxItems": 2000
+                    }
+                  },
+                  "required": [
+                    "product",
+                    "sources"
+                  ],
+                  "additionalProperties": false
+                },
+                "layerOrder": {
+                  "type": "number",
+                  "minimum": -100,
+                  "maximum": 100
+                },
+                "mirror": {
+                  "type": "boolean"
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            }
+          },
+          "decals": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "maxLength": 100
+                },
+                "kind": {
+                  "enum": [
+                    "stripe",
+                    "bands",
+                    "number",
+                    "text",
+                    "chevron",
+                    "badge",
+                    "artwork"
+                  ]
+                },
+                "text": {
+                  "type": "string",
+                  "maxLength": 100
+                },
+                "colour": {
+                  "type": "string",
+                  "pattern": "^#[0-9a-fA-F]{6}$"
+                },
+                "x": {
+                  "type": "number",
+                  "minimum": -100000,
+                  "maximum": 100000
+                },
+                "y": {
+                  "type": "number",
+                  "minimum": -100000,
+                  "maximum": 100000
+                },
+                "scale": {
+                  "type": "number",
+                  "minimum": 0.05,
+                  "maximum": 10
+                },
+                "rotation": {
+                  "type": "number",
+                  "minimum": -360,
+                  "maximum": 360
+                },
+                "opacity": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "asset": {
+                  "type": "string",
+                  "maxLength": 8388608,
+                  "pattern": "^data:image/(png|jpeg|webp);base64,[A-Za-z0-9+/]+=*$"
+                },
+                "partId": {
+                  "type": "string",
+                  "maxLength": 100
+                }
+              },
+              "required": [
+                "id",
+                "kind",
+                "text",
+                "colour",
+                "x",
+                "y",
+                "scale",
+                "rotation",
+                "opacity",
+                "partId"
+              ],
+              "additionalProperties": false
+            },
+            "maxItems": 100
+          },
+          "createdAt": {
+            "type": "string",
+            "maxLength": 50
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "styles",
+          "decals",
+          "createdAt"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 40
+    },
+    "customEntries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9_-]+$",
+            "maxLength": 100
+          },
+          "category": {
+            "enum": [
+              "frame",
+              "fork",
+              "tyres",
+              "wheels",
+              "rims",
+              "spokes",
+              "hubs",
+              "handlebars",
+              "tape",
+              "hoods",
+              "brakes",
+              "saddles",
+              "stems",
+              "seatposts",
+              "pedals",
+              "bottles",
+              "mudguards",
+              "racks",
+              "bags",
+              "lights",
+              "decals",
+              "custom",
+              "brake_levers",
+              "controls",
+              "shifters",
+              "cranksets",
+              "chainrings",
+              "bottom_brackets",
+              "chains",
+              "freewheels",
+              "cassettes",
+              "derailleurs",
+              "tubes",
+              "adapters",
+              "grips",
+              "baskets",
+              "cargo_cages",
+              "disc_rotors"
+            ]
+          },
+          "name": {
+            "type": "string",
+            "maxLength": 100
+          },
+          "description": {
+            "type": "string",
+            "maxLength": 1000
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxLength": 60
+            },
+            "maxItems": 30
+          },
+          "renderer": {
+            "enum": [
+              "frame",
+              "fork",
+              "tyres",
+              "wheels",
+              "rims",
+              "spokes",
+              "hubs",
+              "handlebars",
+              "tape",
+              "hoods",
+              "brakes",
+              "saddles",
+              "stems",
+              "seatposts",
+              "pedals",
+              "bottles",
+              "mudguards",
+              "racks",
+              "bags",
+              "lights",
+              "decals",
+              "brake_levers",
+              "controls",
+              "shifters",
+              "cranksets",
+              "chainrings",
+              "bottom_brackets",
+              "chains",
+              "freewheels",
+              "cassettes",
+              "derailleurs",
+              "tubes",
+              "adapters",
+              "grips",
+              "baskets",
+              "cargo_cages",
+              "disc_rotors",
+              "expanded-brake_levers",
+              "expanded-controls",
+              "expanded-shifters",
+              "expanded-cranksets",
+              "expanded-chainrings",
+              "expanded-bottom_brackets",
+              "expanded-chains",
+              "expanded-freewheels",
+              "expanded-cassettes",
+              "expanded-derailleurs",
+              "expanded-tubes",
+              "expanded-adapters",
+              "expanded-grips",
+              "expanded-baskets",
+              "expanded-cargo_cages",
+              "expanded-disc_rotors",
+              "asset"
+            ]
+          },
+          "parameters": {
+            "type": "object",
+            "maxProperties": 40,
+            "propertyNames": {
+              "pattern": "^[A-Za-z][A-Za-z0-9]*$"
+            },
+            "additionalProperties": {
+              "oneOf": [
+                {
+                  "type": "number",
+                  "minimum": -1000,
+                  "maximum": 1000
+                },
+                {
+                  "type": "string",
+                  "maxLength": 80
+                },
+                {
+                  "type": "boolean"
+                }
+              ]
+            }
+          },
+          "colours": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^#[0-9a-fA-F]{6}$"
+            },
+            "maxItems": 30
+          },
+          "anchors": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "maxLength": 50
+                },
+                "x": {
+                  "type": "number",
+                  "minimum": -100,
+                  "maximum": 200
+                },
+                "y": {
+                  "type": "number",
+                  "minimum": -100,
+                  "maximum": 200
+                }
+              },
+              "required": [
+                "name",
+                "x",
+                "y"
+              ],
+              "additionalProperties": false
+            },
+            "maxItems": 10
+          },
+          "view": {
+            "const": "side"
+          },
+          "orientation": {
+            "const": "both"
+          },
+          "licence": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "provenance": {
+            "type": "string",
+            "maxLength": 500
+          },
+          "limitations": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxLength": 600
+            },
+            "maxItems": 20
+          },
+          "asset": {
+            "type": "string",
+            "maxLength": 8388608,
+            "pattern": "^data:image/(png|webp);base64,[A-Za-z0-9+/]+=*$"
+          },
+          "custom": {
+            "type": "boolean"
+          },
+          "thumbnail": {
+            "type": "string",
+            "maxLength": 94371840,
+            "pattern": "^data:image/(png|jpeg|webp);base64,[A-Za-z0-9+/]+=*$"
+          },
+          "visualOrigin": {
+            "enum": [
+              "deterministic_render",
+              "generated_illustration",
+              "licensed_photo",
+              "user_photo"
+            ]
+          },
+          "assetId": {
+            "type": "string",
+            "maxLength": 160
+          },
+          "assetView": {
+            "type": "string",
+            "maxLength": 80
+          },
+          "embeddingAllowed": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "category",
+          "name",
+          "description",
+          "tags",
+          "renderer",
+          "parameters",
+          "colours",
+          "anchors",
+          "view",
+          "orientation",
+          "licence",
+          "provenance",
+          "limitations"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 600
+    },
+    "stageFrame": {
+      "type": "object",
+      "properties": {
+        "x": {
+          "type": "number",
+          "minimum": -100000,
+          "maximum": 100000
+        },
+        "y": {
+          "type": "number",
+          "minimum": -100000,
+          "maximum": 100000
+        },
+        "width": {
+          "type": "number",
+          "minimum": 1,
+          "maximum": 20000
+        },
+        "height": {
+          "type": "number",
+          "minimum": 1,
+          "maximum": 20000
+        }
+      },
+      "required": [
+        "x",
+        "y",
+        "width",
+        "height"
+      ],
+      "additionalProperties": false
+    },
+    "bikeMeasurements": {
+      "type": "object",
+      "maxProperties": 80,
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": [
+              "string",
+              "number"
+            ]
+          },
+          "unit": {
+            "type": "string",
+            "maxLength": 30
+          },
+          "status": {
+            "enum": [
+              "confirmed",
+              "provisional",
+              "conflicting"
+            ]
+          },
+          "evidence": {
+            "type": "string",
+            "maxLength": 1000
+          },
+          "recordedAt": {
+            "type": "string",
+            "maxLength": 50
+          }
+        },
+        "required": [
+          "value",
+          "status",
+          "evidence",
+          "recordedAt"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "productCatalogue": {
+      "type": "object",
+      "properties": {
+        "version": {
+          "const": 1
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "maxLength": 160
+              },
+              "url": {
+                "type": "string",
+                "format": "uri",
+                "pattern": "^https://",
+                "maxLength": 2000
+              },
+              "publisher": {
+                "type": "string",
+                "maxLength": 160
+              },
+              "verifiedAt": {
+                "type": "string",
+                "maxLength": 50
+              },
+              "kind": {
+                "type": "string",
+                "maxLength": 100
+              },
+              "scope": {
+                "type": "string",
+                "maxLength": 2000
+              },
+              "rights": {
+                "type": "string",
+                "maxLength": 2000
+              },
+              "notes": {
+                "type": "string",
+                "maxLength": 4000
+              }
+            },
+            "required": [
+              "id",
+              "url",
+              "publisher",
+              "verifiedAt",
+              "kind",
+              "scope",
+              "rights"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 2000
+        },
+        "products": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "maxLength": 160
+              },
+              "brand": {
+                "type": "string",
+                "maxLength": 150
+              },
+              "model": {
+                "type": "string",
+                "maxLength": 200
+              },
+              "category": {
+                "type": "string",
+                "maxLength": 100
+              },
+              "family": {
+                "type": "string",
+                "maxLength": 200
+              },
+              "tags": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "maxLength": 100
+                },
+                "maxItems": 40
+              },
+              "sourceIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "maxLength": 160
+                },
+                "maxItems": 60
+              },
+              "status": {
+                "const": "verified-product"
+              },
+              "facts": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "key": {
+                      "type": "string",
+                      "maxLength": 100
+                    },
+                    "value": {
+                      "type": [
+                        "string",
+                        "number",
+                        "boolean"
+                      ]
+                    },
+                    "unit": {
+                      "type": "string",
+                      "maxLength": 80
+                    },
+                    "scope": {
+                      "type": "string",
+                      "maxLength": 1000
+                    },
+                    "sourceId": {
+                      "type": "string",
+                      "maxLength": 160
+                    },
+                    "statement": {
+                      "type": "string",
+                      "maxLength": 4000
+                    }
+                  },
+                  "required": [
+                    "key",
+                    "value",
+                    "scope",
+                    "sourceId",
+                    "statement"
+                  ],
+                  "additionalProperties": false
+                },
+                "maxItems": 80
+              },
+              "variants": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "maxLength": 160
+                    },
+                    "label": {
+                      "type": "string",
+                      "maxLength": 300
+                    },
+                    "facts": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "key": {
+                            "type": "string",
+                            "maxLength": 100
+                          },
+                          "value": {
+                            "type": [
+                              "string",
+                              "number",
+                              "boolean"
+                            ]
+                          },
+                          "unit": {
+                            "type": "string",
+                            "maxLength": 80
+                          },
+                          "scope": {
+                            "type": "string",
+                            "maxLength": 1000
+                          },
+                          "sourceId": {
+                            "type": "string",
+                            "maxLength": 160
+                          },
+                          "statement": {
+                            "type": "string",
+                            "maxLength": 4000
+                          }
+                        },
+                        "required": [
+                          "key",
+                          "value",
+                          "scope",
+                          "sourceId",
+                          "statement"
+                        ],
+                        "additionalProperties": false
+                      },
+                      "maxItems": 80
+                    },
+                    "sourceIds": {
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 160
+                      },
+                      "maxItems": 60
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "label",
+                    "facts",
+                    "sourceIds"
+                  ],
+                  "additionalProperties": false
+                },
+                "maxItems": 150
+              },
+              "previewStatus": {
+                "enum": [
+                  "unavailable",
+                  "reviewed"
+                ]
+              },
+              "previewReason": {
+                "type": "string",
+                "maxLength": 2000
+              },
+              "visualEntryId": {
+                "type": "string",
+                "maxLength": 160
+              }
+            },
+            "required": [
+              "id",
+              "brand",
+              "model",
+              "category",
+              "family",
+              "tags",
+              "sourceIds",
+              "status",
+              "facts",
+              "variants",
+              "previewStatus",
+              "previewReason"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 2000
+        },
+        "backlog": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "maxLength": 160
+              },
+              "brand": {
+                "type": "string",
+                "maxLength": 150
+              },
+              "model": {
+                "type": "string",
+                "maxLength": 200
+              },
+              "category": {
+                "type": "string",
+                "maxLength": 100
+              },
+              "sourceUrls": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "maxLength": 2000
+                },
+                "maxItems": 20
+              },
+              "reason": {
+                "type": "string",
+                "maxLength": 3000
+              }
+            },
+            "required": [
+              "id",
+              "brand",
+              "model",
+              "category",
+              "sourceUrls",
+              "reason"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 3000
+        }
+      },
+      "required": [
+        "version",
+        "sources",
+        "products",
+        "backlog"
+      ],
+      "additionalProperties": false
+    },
+    "sampleCredit": {
+      "type": "string",
+      "maxLength": 2000
+    },
+    "favourites": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "maxLength": 100
+      },
+      "maxItems": 500
+    },
+    "setupAccepted": {
+      "type": "boolean"
+    },
+    "metrics": {
+      "type": "object",
+      "properties": {
+        "setupMs": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1000000000000
+        },
+        "edits": {
+          "type": "array",
+          "items": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1000000000
+          },
+          "maxItems": 200
+        }
+      },
+      "required": [
+        "setupMs",
+        "edits"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "format",
+    "version",
+    "id",
+    "name",
+    "createdAt",
+    "updatedAt",
+    "original",
+    "source",
+    "width",
+    "height",
+    "workWidth",
+    "workHeight",
+    "cutout",
+    "orientation",
+    "parts",
+    "styles",
+    "decals",
+    "designs",
+    "customEntries",
+    "favourites",
+    "setupAccepted",
+    "metrics"
+  ],
+  "additionalProperties": false
+}

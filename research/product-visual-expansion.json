@@ -1,0 +1,2433 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "source-velo-orange-enterprise-front-wheel",
+      "url": "https://velo-orange.com/products/copy-of-700c-pbp-front-wheel",
+      "publisher": "Velo Orange",
+      "verifiedAt": "2026-10-18",
+      "kind": "manufacturer",
+      "scope": "Enterprise front wheel; 700c and 27-inch listings",
+      "rights": "Link/reference only; redistribution not granted",
+      "notes": "Official product page reviewed on 2026-10-18. This is a source review date, not a stock, price or product-release date."
+    },
+    {
+      "id": "source-velo-orange-chronos-front-hub-rim-brake-reference",
+      "url": "https://velo-orange.com/collections/hubs/products/chronos-front-hub-rim-brake",
+      "publisher": "Velo Orange",
+      "verifiedAt": "2026-10-18",
+      "kind": "manufacturer",
+      "scope": "Chronos front hub explicitly linked as the Enterprise front wheel's hub",
+      "rights": "Link/reference only; redistribution not granted",
+      "notes": "Official product page reviewed on 2026-10-18. This is a source review date, not a stock, price or product-release date."
+    },
+    {
+      "id": "source-velo-orange-enterprise-rear-wheel-130",
+      "url": "https://velo-orange.com/products/700c-enterprise-rear-wheel-130mm",
+      "publisher": "Velo Orange",
+      "verifiedAt": "2026-10-18",
+      "kind": "manufacturer",
+      "scope": "700c Enterprise Rear Wheel, 130mm",
+      "rights": "Link/reference only; redistribution not granted",
+      "notes": "Official product page reviewed on 2026-10-18. This is a source review date, not a stock, price or product-release date."
+    },
+    {
+      "id": "source-velo-orange-chronos-rear-hub-rim-brake-reference",
+      "url": "https://velo-orange.com/collections/hubs/products/chronos-rear-hub-rim-brake",
+      "publisher": "Velo Orange",
+      "verifiedAt": "2026-10-18",
+      "kind": "manufacturer",
+      "scope": "Chronos rear hub explicitly linked as the Enterprise rear wheel's hub",
+      "rights": "Link/reference only; redistribution not granted",
+      "notes": "Official product page reviewed on 2026-10-18. This is a source review date, not a stock, price or product-release date."
+    },
+    {
+      "id": "source-vintage-brooks-england-cambium-c17",
+      "url": "https://www.brooksengland.com/en-gb/products/saddles-cambium-c17-mud-green-c170000060401",
+      "publisher": "Brooks England",
+      "verifiedAt": "2026-10-18",
+      "kind": "manufacturer",
+      "scope": "Cambium C17 selected Mud Green article C170000060401",
+      "rights": "Link/reference only; redistribution not granted",
+      "notes": "Official product page reviewed on 2026-10-18. This is a source review date, not a stock, price or product-release date."
+    },
+    {
+      "id": "source-brooks-england-cambium-c15",
+      "url": "https://www.brooksengland.com/en-gb/products/saddles-cambium-c15-black-c150000056300",
+      "publisher": "Brooks England",
+      "verifiedAt": "2026-10-18",
+      "kind": "manufacturer",
+      "scope": "Cambium C15 selected Black article C150000056300",
+      "rights": "Link/reference only; redistribution not granted",
+      "notes": "Official product page reviewed on 2026-10-18. This is a source review date, not a stock, price or product-release date."
+    },
+    {
+      "id": "source-brooks-england-b67",
+      "url": "https://www.brooksengland.com/en-gb/products/saddles-leather-b67-black-b427hs0a07202",
+      "publisher": "Brooks England",
+      "verifiedAt": "2026-10-18",
+      "kind": "manufacturer",
+      "scope": "B67 selected Black article B427HS0A07202",
+      "rights": "Link/reference only; redistribution not granted",
+      "notes": "Official product page reviewed on 2026-10-18. This is a source review date, not a stock, price or product-release date."
+    },
+    {
+      "id": "source-brooks-england-cambium-c67",
+      "url": "https://www.brooksengland.com/en-gb/products/saddles-cambium-c67-black-c670000020010",
+      "publisher": "Brooks England",
+      "verifiedAt": "2026-10-18",
+      "kind": "manufacturer",
+      "scope": "Cambium C67 selected Black article C670000020010",
+      "rights": "Link/reference only; redistribution not granted",
+      "notes": "Official product page reviewed on 2026-10-18. This is a source review date, not a stock, price or product-release date."
+    },
+    {
+      "id": "source-shimano-fc-r7000",
+      "url": "https://bike.shimano.com/en-SG/products/components/pdp.P-FC-R7000.html",
+      "publisher": "Shimano",
+      "verifiedAt": "2026-10-18",
+      "kind": "manufacturer",
+      "scope": "FC-R7000",
+      "rights": "Link/reference only; redistribution not granted",
+      "notes": "Official product page reviewed on 2026-10-18. This is a source review date, not a stock, price or product-release date."
+    },
+    {
+      "id": "source-shimano-fc-r8100",
+      "url": "https://bike.shimano.com/en-SG/products/components/pdp.P-FC-R8100.html",
+      "publisher": "Shimano",
+      "verifiedAt": "2026-10-18",
+      "kind": "manufacturer",
+      "scope": "FC-R8100",
+      "rights": "Link/reference only; redistribution not granted",
+      "notes": "Official product page reviewed on 2026-10-18. This is a source review date, not a stock, price or product-release date."
+    },
+    {
+      "id": "source-vintage-velo-orange-grand-cru-50-4-bcd",
+      "url": "https://velo-orange.com/collections/cranks/products/grand-cru-50-4bcd-crankset-mkii",
+      "publisher": "Velo Orange",
+      "verifiedAt": "2026-10-18",
+      "kind": "manufacturer",
+      "scope": "Grand Cru 50.4 BCD Crankset",
+      "rights": "Link/reference only; redistribution not granted",
+      "notes": "Official product page reviewed on 2026-10-18. This is a source review date, not a stock, price or product-release date."
+    },
+    {
+      "id": "source-vintage-velo-orange-grand-cru-drillium-110-fluted-double",
+      "url": "https://velo-orange.com/collections/cranks/products/drillium-fluted-110-double-crankset-34x48t",
+      "publisher": "Velo Orange",
+      "verifiedAt": "2026-10-18",
+      "kind": "manufacturer",
+      "scope": "Grand Cru Drillium 110 Fluted Double",
+      "rights": "Link/reference only; redistribution not granted",
+      "notes": "Official product page reviewed on 2026-10-18. This is a source review date, not a stock, price or product-release date."
+    },
+    {
+      "id": "source-vintage-velo-orange-grand-cru-110-fluted-triple",
+      "url": "https://velo-orange.com/collections/cranks/products/grand-cru-110-fluted-triple-crankset-24x34x48t",
+      "publisher": "Velo Orange",
+      "verifiedAt": "2026-10-18",
+      "kind": "manufacturer",
+      "scope": "Grand Cru 110 Fluted Triple",
+      "rights": "Link/reference only; redistribution not granted",
+      "notes": "Official product page reviewed on 2026-10-18. This is a source review date, not a stock, price or product-release date."
+    },
+    {
+      "id": "source-dt-swiss-p-1800-spline",
+      "url": "https://www.dtswiss.com/en/wheels/wheels-road/performance/p-1800-spline",
+      "publisher": "DT Swiss",
+      "verifiedAt": "2026-10-18",
+      "kind": "manufacturer",
+      "scope": "P 1800 SPLINE family; only the documented 23 mm rim-brake front/rear articles are enumerated here",
+      "rights": "Link/reference only; redistribution not granted",
+      "notes": "Official product page reviewed on 2026-10-18. This is a source review date, not a stock, price or product-release date."
+    },
+    {
+      "id": "source-dt-swiss-er-1400-dicut",
+      "url": "https://www.dtswiss.com/en/wheels/wheels-road/endurance/er-1400-dicut",
+      "publisher": "DT Swiss",
+      "verifiedAt": "2026-10-18",
+      "kind": "manufacturer",
+      "scope": "ER 1400 DICUT 25 mm family; selected front/rear articles",
+      "rights": "Link/reference only; redistribution not granted",
+      "notes": "Official product page reviewed on 2026-10-18. This is a source review date, not a stock, price or product-release date."
+    },
+    {
+      "id": "source-vintage-velo-orange-voyager",
+      "url": "https://velo-orange.com/products/voyager-rim",
+      "publisher": "Velo Orange",
+      "verifiedAt": "2026-10-18",
+      "kind": "manufacturer",
+      "scope": "Voyager Rim",
+      "rights": "Link/reference only; redistribution not granted",
+      "notes": "Official product page reviewed on 2026-10-18. This is a source review date, not a stock, price or product-release date."
+    },
+    {
+      "id": "source-vintage-velo-orange-porteur-rack",
+      "url": "https://velo-orange.com/products/vo-porteur-rack",
+      "publisher": "Velo Orange",
+      "verifiedAt": "2026-10-18",
+      "kind": "manufacturer",
+      "scope": "Porteur Rack",
+      "rights": "Link/reference only; redistribution not granted",
+      "notes": "Official product page reviewed on 2026-10-18. This is a source review date, not a stock, price or product-release date."
+    },
+    {
+      "id": "source-mks-allways",
+      "url": "https://mkspedal.com/?q=en/product/node/303",
+      "publisher": "MKS",
+      "verifiedAt": "2026-10-18",
+      "kind": "manufacturer",
+      "scope": "ALLWAYS standard axle; Ezy Superior is mentioned by the page but is not represented as a verified SKU here",
+      "rights": "Link/reference only; redistribution not granted",
+      "notes": "Official product page reviewed on 2026-10-18. This is a source review date, not a stock, price or product-release date."
+    }
+  ],
+  "products": [
+    {
+      "id": "velo-orange-enterprise-front-wheel",
+      "brand": "Velo Orange",
+      "model": "Enterprise Front Wheel",
+      "category": "wheelsets",
+      "family": "Enterprise",
+      "tags": [
+        "classic",
+        "road",
+        "touring",
+        "front-wheel"
+      ],
+      "sourceIds": [
+        "source-velo-orange-enterprise-front-wheel",
+        "source-velo-orange-chronos-front-hub-rim-brake-reference"
+      ],
+      "status": "verified-product",
+      "facts": [
+        {
+          "key": "axleSpacing",
+          "value": 100,
+          "unit": "mm",
+          "scope": "Enterprise Front Wheel",
+          "sourceId": "source-velo-orange-enterprise-front-wheel",
+          "statement": "The cited manufacturer page lists axleSpacing as 100 mm."
+        },
+        {
+          "key": "axleType",
+          "value": "QR",
+          "scope": "Enterprise Front Wheel",
+          "sourceId": "source-velo-orange-enterprise-front-wheel",
+          "statement": "The cited manufacturer page lists axleType as QR."
+        },
+        {
+          "key": "tubeless",
+          "value": false,
+          "scope": "Enterprise Front Wheel",
+          "sourceId": "source-velo-orange-enterprise-front-wheel",
+          "statement": "The cited manufacturer page lists tubeless as false."
+        },
+        {
+          "key": "finish",
+          "value": "Polished silver",
+          "scope": "Enterprise Front Wheel",
+          "sourceId": "source-velo-orange-enterprise-front-wheel",
+          "statement": "The cited manufacturer page lists finish as Polished silver."
+        },
+        {
+          "key": "manufacturerTyreRange",
+          "value": "25–38 mm",
+          "scope": "Manufacturer's recommendation; no particular bicycle fit established",
+          "sourceId": "source-velo-orange-enterprise-front-wheel",
+          "statement": "The cited manufacturer page lists manufacturerTyreRange as 25–38 mm for Manufacturer's recommendation; no particular bicycle fit established."
+        },
+        {
+          "key": "brakeMount",
+          "value": "rim",
+          "scope": "Enterprise assembly: wheel page identifies its included Chronos hub; linked hub page explicitly specifies rim brake",
+          "sourceId": "source-velo-orange-chronos-front-hub-rim-brake-reference",
+          "statement": "The cited manufacturer page lists brakeMount as rim for Enterprise assembly: wheel page identifies its included Chronos hub; linked hub page explicitly specifies rim brake."
+        }
+      ],
+      "variants": [
+        {
+          "id": "WH-1068-700c",
+          "label": "700c / 32 spokes",
+          "facts": [
+            {
+              "key": "manufacturerSku",
+              "value": "WH-1068-700c",
+              "scope": "700c / 32 spokes",
+              "sourceId": "source-velo-orange-enterprise-front-wheel",
+              "statement": "The cited manufacturer page lists manufacturerSku as WH-1068-700c for 700c / 32 spokes."
+            },
+            {
+              "key": "wheelSize",
+              "value": "700c",
+              "scope": "700c / 32 spokes",
+              "sourceId": "source-velo-orange-enterprise-front-wheel",
+              "statement": "The cited manufacturer page lists wheelSize as 700c for 700c / 32 spokes."
+            },
+            {
+              "key": "spokeCount",
+              "value": 32,
+              "scope": "700c / 32 spokes",
+              "sourceId": "source-velo-orange-enterprise-front-wheel",
+              "statement": "The cited manufacturer page lists spokeCount as 32 for 700c / 32 spokes."
+            }
+          ],
+          "sourceIds": [
+            "source-velo-orange-enterprise-front-wheel"
+          ]
+        },
+        {
+          "id": "WH-1068-27",
+          "label": "27 inch / 36 spokes",
+          "facts": [
+            {
+              "key": "manufacturerSku",
+              "value": "WH-1068-27",
+              "scope": "27 inch / 36 spokes",
+              "sourceId": "source-velo-orange-enterprise-front-wheel",
+              "statement": "The cited manufacturer page lists manufacturerSku as WH-1068-27 for 27 inch / 36 spokes."
+            },
+            {
+              "key": "wheelSize",
+              "value": "27 inch",
+              "scope": "27 inch / 36 spokes",
+              "sourceId": "source-velo-orange-enterprise-front-wheel",
+              "statement": "The cited manufacturer page lists wheelSize as 27 inch for 27 inch / 36 spokes."
+            },
+            {
+              "key": "spokeCount",
+              "value": 36,
+              "scope": "27 inch / 36 spokes",
+              "sourceId": "source-velo-orange-enterprise-front-wheel",
+              "statement": "The cited manufacturer page lists spokeCount as 36 for 27 inch / 36 spokes."
+            }
+          ],
+          "sourceIds": [
+            "source-velo-orange-enterprise-front-wheel"
+          ]
+        }
+      ],
+      "previewStatus": "unavailable",
+      "previewReason": "Public product image reference recorded separately. A generated approximation or manufacturer photograph is not supplied by this research record."
+    },
+    {
+      "id": "velo-orange-enterprise-rear-wheel-130",
+      "brand": "Velo Orange",
+      "model": "700c Enterprise Rear Wheel, 130mm",
+      "category": "wheelsets",
+      "family": "Enterprise",
+      "tags": [
+        "classic",
+        "road",
+        "touring",
+        "rear-wheel"
+      ],
+      "sourceIds": [
+        "source-velo-orange-enterprise-rear-wheel-130",
+        "source-velo-orange-chronos-rear-hub-rim-brake-reference"
+      ],
+      "status": "verified-product",
+      "facts": [
+        {
+          "key": "axleSpacing",
+          "value": 130,
+          "unit": "mm",
+          "scope": "700c Enterprise Rear Wheel, 130mm",
+          "sourceId": "source-velo-orange-enterprise-rear-wheel-130",
+          "statement": "The cited manufacturer page lists axleSpacing as 130 mm."
+        },
+        {
+          "key": "axleType",
+          "value": "QR",
+          "scope": "700c Enterprise Rear Wheel, 130mm",
+          "sourceId": "source-velo-orange-enterprise-rear-wheel-130",
+          "statement": "The cited manufacturer page lists axleType as QR."
+        },
+        {
+          "key": "spokeCount",
+          "value": 32,
+          "scope": "700c Enterprise Rear Wheel, 130mm",
+          "sourceId": "source-velo-orange-enterprise-rear-wheel-130",
+          "statement": "The cited manufacturer page lists spokeCount as 32."
+        },
+        {
+          "key": "wheelSize",
+          "value": "700c",
+          "scope": "700c Enterprise Rear Wheel, 130mm",
+          "sourceId": "source-velo-orange-enterprise-rear-wheel-130",
+          "statement": "The cited manufacturer page lists wheelSize as 700c."
+        },
+        {
+          "key": "tubeless",
+          "value": false,
+          "scope": "700c Enterprise Rear Wheel, 130mm",
+          "sourceId": "source-velo-orange-enterprise-rear-wheel-130",
+          "statement": "The cited manufacturer page lists tubeless as false."
+        },
+        {
+          "key": "finish",
+          "value": "Polished silver",
+          "scope": "700c Enterprise Rear Wheel, 130mm",
+          "sourceId": "source-velo-orange-enterprise-rear-wheel-130",
+          "statement": "The cited manufacturer page lists finish as Polished silver."
+        },
+        {
+          "key": "weight",
+          "value": 1042,
+          "unit": "g",
+          "scope": "Page-listed rear-wheel weight; freehub choice not specified",
+          "sourceId": "source-velo-orange-enterprise-rear-wheel-130",
+          "statement": "The cited manufacturer page lists weight as 1042 g for Page-listed rear-wheel weight; freehub choice not specified."
+        },
+        {
+          "key": "brakeMount",
+          "value": "rim",
+          "scope": "Enterprise assembly: wheel page identifies its included Chronos hub; linked hub page explicitly specifies rim brake",
+          "sourceId": "source-velo-orange-chronos-rear-hub-rim-brake-reference",
+          "statement": "The cited manufacturer page lists brakeMount as rim for Enterprise assembly: wheel page identifies its included Chronos hub; linked hub page explicitly specifies rim brake."
+        }
+      ],
+      "variants": [
+        {
+          "id": "WH-1069",
+          "label": "700c / 130 mm",
+          "facts": [
+            {
+              "key": "manufacturerSku",
+              "value": "WH-1069",
+              "scope": "700c / 130 mm",
+              "sourceId": "source-velo-orange-enterprise-rear-wheel-130",
+              "statement": "The cited manufacturer page lists manufacturerSku as WH-1069 for 700c / 130 mm."
+            }
+          ],
+          "sourceIds": [
+            "source-velo-orange-enterprise-rear-wheel-130"
+          ]
+        }
+      ],
+      "previewStatus": "unavailable",
+      "previewReason": "Public product image reference recorded separately. A generated approximation or manufacturer photograph is not supplied by this research record."
+    },
+    {
+      "id": "vintage-brooks-england-cambium-c17",
+      "brand": "Brooks England",
+      "model": "Cambium C17",
+      "category": "saddles",
+      "family": "Cambium",
+      "tags": [
+        "comfort",
+        "all-weather"
+      ],
+      "sourceIds": [
+        "source-vintage-brooks-england-cambium-c17"
+      ],
+      "status": "verified-product",
+      "facts": [
+        {
+          "key": "topMaterial",
+          "value": "Rubber with nylon top",
+          "scope": "Cambium C17",
+          "sourceId": "source-vintage-brooks-england-cambium-c17",
+          "statement": "The cited manufacturer page lists topMaterial as Rubber with nylon top."
+        }
+      ],
+      "variants": [
+        {
+          "id": "C170000060401",
+          "label": "Cambium C17 / Mud Green / C170000060401",
+          "facts": [
+            {
+              "key": "manufacturerSku",
+              "value": "C170000060401",
+              "scope": "Cambium C17 / Mud Green / C170000060401",
+              "sourceId": "source-vintage-brooks-england-cambium-c17",
+              "statement": "The cited manufacturer page lists manufacturerSku as C170000060401 for Cambium C17 / Mud Green / C170000060401."
+            },
+            {
+              "key": "colour",
+              "value": "Mud Green",
+              "scope": "Cambium C17 / Mud Green / C170000060401",
+              "sourceId": "source-vintage-brooks-england-cambium-c17",
+              "statement": "The cited manufacturer page lists colour as Mud Green for Cambium C17 / Mud Green / C170000060401."
+            },
+            {
+              "key": "length",
+              "value": 283,
+              "unit": "mm",
+              "scope": "Cambium C17 / Mud Green / C170000060401",
+              "sourceId": "source-vintage-brooks-england-cambium-c17",
+              "statement": "The cited manufacturer page lists length as 283 mm for Cambium C17 / Mud Green / C170000060401."
+            },
+            {
+              "key": "width",
+              "value": 164,
+              "unit": "mm",
+              "scope": "Cambium C17 / Mud Green / C170000060401",
+              "sourceId": "source-vintage-brooks-england-cambium-c17",
+              "statement": "The cited manufacturer page lists width as 164 mm for Cambium C17 / Mud Green / C170000060401."
+            },
+            {
+              "key": "weight",
+              "value": 464,
+              "unit": "g",
+              "scope": "Cambium C17 / Mud Green / C170000060401",
+              "sourceId": "source-vintage-brooks-england-cambium-c17",
+              "statement": "The cited manufacturer page lists weight as 464 g for Cambium C17 / Mud Green / C170000060401."
+            },
+            {
+              "key": "railMaterial",
+              "value": "Steel",
+              "scope": "Cambium C17 / Mud Green / C170000060401",
+              "sourceId": "source-vintage-brooks-england-cambium-c17",
+              "statement": "The cited manufacturer page lists railMaterial as Steel for Cambium C17 / Mud Green / C170000060401."
+            }
+          ],
+          "sourceIds": [
+            "source-vintage-brooks-england-cambium-c17"
+          ]
+        }
+      ],
+      "previewStatus": "unavailable",
+      "previewReason": "Public product image reference recorded separately. A generated approximation or manufacturer photograph is not supplied by this research record."
+    },
+    {
+      "id": "brooks-england-cambium-c15",
+      "brand": "Brooks England",
+      "model": "Cambium C15",
+      "category": "saddles",
+      "family": "Cambium",
+      "tags": [
+        "comfort",
+        "road"
+      ],
+      "sourceIds": [
+        "source-brooks-england-cambium-c15"
+      ],
+      "status": "verified-product",
+      "facts": [
+        {
+          "key": "topMaterial",
+          "value": "Rubber with nylon top",
+          "scope": "Cambium C15",
+          "sourceId": "source-brooks-england-cambium-c15",
+          "statement": "The cited manufacturer page lists topMaterial as Rubber with nylon top."
+        }
+      ],
+      "variants": [
+        {
+          "id": "C150000056300",
+          "label": "Cambium C15 / Black / C150000056300",
+          "facts": [
+            {
+              "key": "manufacturerSku",
+              "value": "C150000056300",
+              "scope": "Cambium C15 / Black / C150000056300",
+              "sourceId": "source-brooks-england-cambium-c15",
+              "statement": "The cited manufacturer page lists manufacturerSku as C150000056300 for Cambium C15 / Black / C150000056300."
+            },
+            {
+              "key": "colour",
+              "value": "Black",
+              "scope": "Cambium C15 / Black / C150000056300",
+              "sourceId": "source-brooks-england-cambium-c15",
+              "statement": "The cited manufacturer page lists colour as Black for Cambium C15 / Black / C150000056300."
+            },
+            {
+              "key": "length",
+              "value": 283,
+              "unit": "mm",
+              "scope": "Cambium C15 / Black / C150000056300",
+              "sourceId": "source-brooks-england-cambium-c15",
+              "statement": "The cited manufacturer page lists length as 283 mm for Cambium C15 / Black / C150000056300."
+            },
+            {
+              "key": "width",
+              "value": 140,
+              "unit": "mm",
+              "scope": "Cambium C15 / Black / C150000056300",
+              "sourceId": "source-brooks-england-cambium-c15",
+              "statement": "The cited manufacturer page lists width as 140 mm for Cambium C15 / Black / C150000056300."
+            },
+            {
+              "key": "weight",
+              "value": 450,
+              "unit": "g",
+              "scope": "Cambium C15 / Black / C150000056300",
+              "sourceId": "source-brooks-england-cambium-c15",
+              "statement": "The cited manufacturer page lists weight as 450 g for Cambium C15 / Black / C150000056300."
+            },
+            {
+              "key": "railMaterial",
+              "value": "Steel",
+              "scope": "Cambium C15 / Black / C150000056300",
+              "sourceId": "source-brooks-england-cambium-c15",
+              "statement": "The cited manufacturer page lists railMaterial as Steel for Cambium C15 / Black / C150000056300."
+            }
+          ],
+          "sourceIds": [
+            "source-brooks-england-cambium-c15"
+          ]
+        }
+      ],
+      "previewStatus": "unavailable",
+      "previewReason": "Public product image reference recorded separately. A generated approximation or manufacturer photograph is not supplied by this research record."
+    },
+    {
+      "id": "brooks-england-b67",
+      "brand": "Brooks England",
+      "model": "B67",
+      "category": "saddles",
+      "family": "Leather",
+      "tags": [
+        "comfort",
+        "sprung"
+      ],
+      "sourceIds": [
+        "source-brooks-england-b67"
+      ],
+      "status": "verified-product",
+      "facts": [
+        {
+          "key": "topMaterial",
+          "value": "Leather",
+          "scope": "B67",
+          "sourceId": "source-brooks-england-b67",
+          "statement": "The cited manufacturer page lists topMaterial as Leather."
+        }
+      ],
+      "variants": [
+        {
+          "id": "B427HS0A07202",
+          "label": "B67 / Black / B427HS0A07202",
+          "facts": [
+            {
+              "key": "manufacturerSku",
+              "value": "B427HS0A07202",
+              "scope": "B67 / Black / B427HS0A07202",
+              "sourceId": "source-brooks-england-b67",
+              "statement": "The cited manufacturer page lists manufacturerSku as B427HS0A07202 for B67 / Black / B427HS0A07202."
+            },
+            {
+              "key": "colour",
+              "value": "Black",
+              "scope": "B67 / Black / B427HS0A07202",
+              "sourceId": "source-brooks-england-b67",
+              "statement": "The cited manufacturer page lists colour as Black for B67 / Black / B427HS0A07202."
+            },
+            {
+              "key": "length",
+              "value": 260,
+              "unit": "mm",
+              "scope": "B67 / Black / B427HS0A07202",
+              "sourceId": "source-brooks-england-b67",
+              "statement": "The cited manufacturer page lists length as 260 mm for B67 / Black / B427HS0A07202."
+            },
+            {
+              "key": "width",
+              "value": 205,
+              "unit": "mm",
+              "scope": "B67 / Black / B427HS0A07202",
+              "sourceId": "source-brooks-england-b67",
+              "statement": "The cited manufacturer page lists width as 205 mm for B67 / Black / B427HS0A07202."
+            },
+            {
+              "key": "weight",
+              "value": 850,
+              "unit": "g",
+              "scope": "B67 / Black / B427HS0A07202",
+              "sourceId": "source-brooks-england-b67",
+              "statement": "The cited manufacturer page lists weight as 850 g for B67 / Black / B427HS0A07202."
+            },
+            {
+              "key": "railMaterial",
+              "value": "Steel",
+              "scope": "B67 / Black / B427HS0A07202",
+              "sourceId": "source-brooks-england-b67",
+              "statement": "The cited manufacturer page lists railMaterial as Steel for B67 / Black / B427HS0A07202."
+            }
+          ],
+          "sourceIds": [
+            "source-brooks-england-b67"
+          ]
+        }
+      ],
+      "previewStatus": "unavailable",
+      "previewReason": "Public product image reference recorded separately. A generated approximation or manufacturer photograph is not supplied by this research record."
+    },
+    {
+      "id": "brooks-england-cambium-c67",
+      "brand": "Brooks England",
+      "model": "Cambium C67",
+      "category": "saddles",
+      "family": "Cambium",
+      "tags": [
+        "comfort",
+        "upright"
+      ],
+      "sourceIds": [
+        "source-brooks-england-cambium-c67"
+      ],
+      "status": "verified-product",
+      "facts": [
+        {
+          "key": "topMaterial",
+          "value": "Rubber with nylon top",
+          "scope": "Cambium C67",
+          "sourceId": "source-brooks-england-cambium-c67",
+          "statement": "The cited manufacturer page lists topMaterial as Rubber with nylon top."
+        }
+      ],
+      "variants": [
+        {
+          "id": "C670000020010",
+          "label": "Cambium C67 / Black / C670000020010",
+          "facts": [
+            {
+              "key": "manufacturerSku",
+              "value": "C670000020010",
+              "scope": "Cambium C67 / Black / C670000020010",
+              "sourceId": "source-brooks-england-cambium-c67",
+              "statement": "The cited manufacturer page lists manufacturerSku as C670000020010 for Cambium C67 / Black / C670000020010."
+            },
+            {
+              "key": "colour",
+              "value": "Black",
+              "scope": "Cambium C67 / Black / C670000020010",
+              "sourceId": "source-brooks-england-cambium-c67",
+              "statement": "The cited manufacturer page lists colour as Black for Cambium C67 / Black / C670000020010."
+            },
+            {
+              "key": "length",
+              "value": 268,
+              "unit": "mm",
+              "scope": "Cambium C67 / Black / C670000020010",
+              "sourceId": "source-brooks-england-cambium-c67",
+              "statement": "The cited manufacturer page lists length as 268 mm for Cambium C67 / Black / C670000020010."
+            },
+            {
+              "key": "width",
+              "value": 200,
+              "unit": "mm",
+              "scope": "Cambium C67 / Black / C670000020010",
+              "sourceId": "source-brooks-england-cambium-c67",
+              "statement": "The cited manufacturer page lists width as 200 mm for Cambium C67 / Black / C670000020010."
+            },
+            {
+              "key": "weight",
+              "value": 485,
+              "unit": "g",
+              "scope": "Cambium C67 / Black / C670000020010",
+              "sourceId": "source-brooks-england-cambium-c67",
+              "statement": "The cited manufacturer page lists weight as 485 g for Cambium C67 / Black / C670000020010."
+            },
+            {
+              "key": "railMaterial",
+              "value": "Steel",
+              "scope": "Cambium C67 / Black / C670000020010",
+              "sourceId": "source-brooks-england-cambium-c67",
+              "statement": "The cited manufacturer page lists railMaterial as Steel for Cambium C67 / Black / C670000020010."
+            },
+            {
+              "key": "height",
+              "value": 59,
+              "unit": "mm",
+              "scope": "Cambium C67 / Black / C670000020010",
+              "sourceId": "source-brooks-england-cambium-c67",
+              "statement": "The cited manufacturer page lists height as 59 mm for Cambium C67 / Black / C670000020010."
+            }
+          ],
+          "sourceIds": [
+            "source-brooks-england-cambium-c67"
+          ]
+        }
+      ],
+      "previewStatus": "unavailable",
+      "previewReason": "Public product image reference recorded separately. A generated approximation or manufacturer photograph is not supplied by this research record."
+    },
+    {
+      "id": "shimano-fc-r7000",
+      "brand": "Shimano",
+      "model": "FC-R7000",
+      "category": "cranksets",
+      "family": "105",
+      "tags": [
+        "road",
+        "double"
+      ],
+      "sourceIds": [
+        "source-shimano-fc-r7000"
+      ],
+      "status": "verified-product",
+      "facts": [
+        {
+          "key": "groupset",
+          "value": "105",
+          "scope": "FC-R7000",
+          "sourceId": "source-shimano-fc-r7000",
+          "statement": "The cited manufacturer page lists groupset as 105."
+        },
+        {
+          "key": "chainringCount",
+          "value": 2,
+          "scope": "FC-R7000",
+          "sourceId": "source-shimano-fc-r7000",
+          "statement": "The cited manufacturer page lists chainringCount as 2."
+        },
+        {
+          "key": "speeds",
+          "value": 11,
+          "scope": "FC-R7000",
+          "sourceId": "source-shimano-fc-r7000",
+          "statement": "The cited manufacturer page lists speeds as 11."
+        },
+        {
+          "key": "chainringOptions",
+          "value": "53/39T; 52/36T; 50/34T",
+          "scope": "Options listed on this regional manufacturer page; no SKU combinations inferred",
+          "sourceId": "source-shimano-fc-r7000",
+          "statement": "The cited manufacturer page lists chainringOptions as 53/39T; 52/36T; 50/34T for Options listed on this regional manufacturer page; no SKU combinations inferred."
+        },
+        {
+          "key": "crankLengthOptions",
+          "value": "160; 165; 170; 172.5; 175",
+          "unit": "mm",
+          "scope": "Options listed on this regional manufacturer page; no SKU combinations inferred",
+          "sourceId": "source-shimano-fc-r7000",
+          "statement": "The cited manufacturer page lists crankLengthOptions as 160; 165; 170; 172.5; 175 mm for Options listed on this regional manufacturer page; no SKU combinations inferred."
+        },
+        {
+          "key": "colourOptions",
+          "value": "Silky Black; Spark Silver",
+          "scope": "FC-R7000",
+          "sourceId": "source-shimano-fc-r7000",
+          "statement": "The cited manufacturer page lists colourOptions as Silky Black; Spark Silver."
+        }
+      ],
+      "variants": [],
+      "previewStatus": "unavailable",
+      "previewReason": "Public product image reference recorded separately. A generated approximation or manufacturer photograph is not supplied by this research record."
+    },
+    {
+      "id": "shimano-fc-r8100",
+      "brand": "Shimano",
+      "model": "FC-R8100",
+      "category": "cranksets",
+      "family": "ULTEGRA",
+      "tags": [
+        "road",
+        "double"
+      ],
+      "sourceIds": [
+        "source-shimano-fc-r8100"
+      ],
+      "status": "verified-product",
+      "facts": [
+        {
+          "key": "groupset",
+          "value": "ULTEGRA",
+          "scope": "FC-R8100",
+          "sourceId": "source-shimano-fc-r8100",
+          "statement": "The cited manufacturer page lists groupset as ULTEGRA."
+        },
+        {
+          "key": "chainringCount",
+          "value": 2,
+          "scope": "FC-R8100",
+          "sourceId": "source-shimano-fc-r8100",
+          "statement": "The cited manufacturer page lists chainringCount as 2."
+        },
+        {
+          "key": "speeds",
+          "value": 12,
+          "scope": "FC-R8100",
+          "sourceId": "source-shimano-fc-r8100",
+          "statement": "The cited manufacturer page lists speeds as 12."
+        },
+        {
+          "key": "chainringOptions",
+          "value": "52/36T; 50/34T; 46/36T",
+          "scope": "Options listed on this regional manufacturer page; no SKU combinations inferred",
+          "sourceId": "source-shimano-fc-r8100",
+          "statement": "The cited manufacturer page lists chainringOptions as 52/36T; 50/34T; 46/36T for Options listed on this regional manufacturer page; no SKU combinations inferred."
+        },
+        {
+          "key": "crankLengthOptions",
+          "value": "160; 165; 170; 172.5; 175",
+          "unit": "mm",
+          "scope": "Options listed on this regional manufacturer page; no SKU combinations inferred",
+          "sourceId": "source-shimano-fc-r8100",
+          "statement": "The cited manufacturer page lists crankLengthOptions as 160; 165; 170; 172.5; 175 mm for Options listed on this regional manufacturer page; no SKU combinations inferred."
+        }
+      ],
+      "variants": [],
+      "previewStatus": "unavailable",
+      "previewReason": "Public product image reference recorded separately. A generated approximation or manufacturer photograph is not supplied by this research record."
+    },
+    {
+      "id": "vintage-velo-orange-grand-cru-50-4-bcd",
+      "brand": "Velo Orange",
+      "model": "Grand Cru 50.4 BCD Crankset",
+      "category": "cranksets",
+      "family": "Grand Cru",
+      "tags": [
+        "classic",
+        "touring",
+        "double"
+      ],
+      "sourceIds": [
+        "source-vintage-velo-orange-grand-cru-50-4-bcd"
+      ],
+      "status": "verified-product",
+      "facts": [
+        {
+          "key": "chainrings",
+          "value": "46/30T",
+          "scope": "Grand Cru 50.4 BCD Crankset",
+          "sourceId": "source-vintage-velo-orange-grand-cru-50-4-bcd",
+          "statement": "The cited manufacturer page lists chainrings as 46/30T."
+        },
+        {
+          "key": "boltCircleDiameter",
+          "value": "50.4",
+          "unit": "mm",
+          "scope": "Grand Cru 50.4 BCD Crankset",
+          "sourceId": "source-vintage-velo-orange-grand-cru-50-4-bcd",
+          "statement": "The cited manufacturer page lists boltCircleDiameter as 50.4 mm."
+        },
+        {
+          "key": "qFactor",
+          "value": 149,
+          "unit": "mm",
+          "scope": "Grand Cru 50.4 BCD Crankset",
+          "sourceId": "source-vintage-velo-orange-grand-cru-50-4-bcd",
+          "statement": "The cited manufacturer page lists qFactor as 149 mm."
+        },
+        {
+          "key": "chainline",
+          "value": 43.5,
+          "unit": "mm",
+          "scope": "Grand Cru 50.4 BCD Crankset",
+          "sourceId": "source-vintage-velo-orange-grand-cru-50-4-bcd",
+          "statement": "The cited manufacturer page lists chainline as 43.5 mm."
+        },
+        {
+          "key": "crankInterface",
+          "value": "JIS square taper",
+          "scope": "Grand Cru 50.4 BCD Crankset",
+          "sourceId": "source-vintage-velo-orange-grand-cru-50-4-bcd",
+          "statement": "The cited manufacturer page lists crankInterface as JIS square taper."
+        },
+        {
+          "key": "pedalThread",
+          "value": "9/16 inch",
+          "scope": "Grand Cru 50.4 BCD Crankset",
+          "sourceId": "source-vintage-velo-orange-grand-cru-50-4-bcd",
+          "statement": "The cited manufacturer page lists pedalThread as 9/16 inch."
+        },
+        {
+          "key": "manufacturerSpeedRange",
+          "value": "5–11",
+          "scope": "Manufacturer-stated range; not a complete drivetrain compatibility guarantee",
+          "sourceId": "source-vintage-velo-orange-grand-cru-50-4-bcd",
+          "statement": "The cited manufacturer page lists manufacturerSpeedRange as 5–11 for Manufacturer-stated range; not a complete drivetrain compatibility guarantee."
+        }
+      ],
+      "variants": [
+        {
+          "id": "CR-0029-165",
+          "label": "165 mm",
+          "facts": [
+            {
+              "key": "manufacturerSku",
+              "value": "CR-0029-165",
+              "scope": "165 mm",
+              "sourceId": "source-vintage-velo-orange-grand-cru-50-4-bcd",
+              "statement": "The cited manufacturer page lists manufacturerSku as CR-0029-165 for 165 mm."
+            },
+            {
+              "key": "crankLength",
+              "value": 165,
+              "unit": "mm",
+              "scope": "165 mm",
+              "sourceId": "source-vintage-velo-orange-grand-cru-50-4-bcd",
+              "statement": "The cited manufacturer page lists crankLength as 165 mm for 165 mm."
+            }
+          ],
+          "sourceIds": [
+            "source-vintage-velo-orange-grand-cru-50-4-bcd"
+          ]
+        },
+        {
+          "id": "CR-0029-170",
+          "label": "170 mm",
+          "facts": [
+            {
+              "key": "manufacturerSku",
+              "value": "CR-0029-170",
+              "scope": "170 mm",
+              "sourceId": "source-vintage-velo-orange-grand-cru-50-4-bcd",
+              "statement": "The cited manufacturer page lists manufacturerSku as CR-0029-170 for 170 mm."
+            },
+            {
+              "key": "crankLength",
+              "value": 170,
+              "unit": "mm",
+              "scope": "170 mm",
+              "sourceId": "source-vintage-velo-orange-grand-cru-50-4-bcd",
+              "statement": "The cited manufacturer page lists crankLength as 170 mm for 170 mm."
+            }
+          ],
+          "sourceIds": [
+            "source-vintage-velo-orange-grand-cru-50-4-bcd"
+          ]
+        },
+        {
+          "id": "CR-0029-175",
+          "label": "175 mm",
+          "facts": [
+            {
+              "key": "manufacturerSku",
+              "value": "CR-0029-175",
+              "scope": "175 mm",
+              "sourceId": "source-vintage-velo-orange-grand-cru-50-4-bcd",
+              "statement": "The cited manufacturer page lists manufacturerSku as CR-0029-175 for 175 mm."
+            },
+            {
+              "key": "crankLength",
+              "value": 175,
+              "unit": "mm",
+              "scope": "175 mm",
+              "sourceId": "source-vintage-velo-orange-grand-cru-50-4-bcd",
+              "statement": "The cited manufacturer page lists crankLength as 175 mm for 175 mm."
+            }
+          ],
+          "sourceIds": [
+            "source-vintage-velo-orange-grand-cru-50-4-bcd"
+          ]
+        }
+      ],
+      "previewStatus": "unavailable",
+      "previewReason": "Public product image reference recorded separately. A generated approximation or manufacturer photograph is not supplied by this research record."
+    },
+    {
+      "id": "vintage-velo-orange-grand-cru-drillium-110-fluted-double",
+      "brand": "Velo Orange",
+      "model": "Grand Cru Drillium 110 Fluted Double",
+      "category": "cranksets",
+      "family": "Grand Cru",
+      "tags": [
+        "classic",
+        "touring",
+        "double"
+      ],
+      "sourceIds": [
+        "source-vintage-velo-orange-grand-cru-drillium-110-fluted-double"
+      ],
+      "status": "verified-product",
+      "facts": [
+        {
+          "key": "chainrings",
+          "value": "48/34T",
+          "scope": "Grand Cru Drillium 110 Fluted Double",
+          "sourceId": "source-vintage-velo-orange-grand-cru-drillium-110-fluted-double",
+          "statement": "The cited manufacturer page lists chainrings as 48/34T."
+        },
+        {
+          "key": "boltCircleDiameter",
+          "value": "110",
+          "unit": "mm",
+          "scope": "Grand Cru Drillium 110 Fluted Double",
+          "sourceId": "source-vintage-velo-orange-grand-cru-drillium-110-fluted-double",
+          "statement": "The cited manufacturer page lists boltCircleDiameter as 110 mm."
+        },
+        {
+          "key": "qFactor",
+          "value": 143,
+          "unit": "mm",
+          "scope": "Grand Cru Drillium 110 Fluted Double",
+          "sourceId": "source-vintage-velo-orange-grand-cru-drillium-110-fluted-double",
+          "statement": "The cited manufacturer page lists qFactor as 143 mm."
+        },
+        {
+          "key": "chainline",
+          "value": 43.5,
+          "unit": "mm",
+          "scope": "Grand Cru Drillium 110 Fluted Double",
+          "sourceId": "source-vintage-velo-orange-grand-cru-drillium-110-fluted-double",
+          "statement": "The cited manufacturer page lists chainline as 43.5 mm."
+        },
+        {
+          "key": "crankInterface",
+          "value": "JIS square taper",
+          "scope": "Grand Cru Drillium 110 Fluted Double",
+          "sourceId": "source-vintage-velo-orange-grand-cru-drillium-110-fluted-double",
+          "statement": "The cited manufacturer page lists crankInterface as JIS square taper."
+        },
+        {
+          "key": "pedalThread",
+          "value": "9/16 inch",
+          "scope": "Grand Cru Drillium 110 Fluted Double",
+          "sourceId": "source-vintage-velo-orange-grand-cru-drillium-110-fluted-double",
+          "statement": "The cited manufacturer page lists pedalThread as 9/16 inch."
+        },
+        {
+          "key": "manufacturerSpeedRange",
+          "value": "5–11",
+          "scope": "Manufacturer-stated range; not a complete drivetrain compatibility guarantee",
+          "sourceId": "source-vintage-velo-orange-grand-cru-drillium-110-fluted-double",
+          "statement": "The cited manufacturer page lists manufacturerSpeedRange as 5–11 for Manufacturer-stated range; not a complete drivetrain compatibility guarantee."
+        }
+      ],
+      "variants": [
+        {
+          "id": "CR-0032-165",
+          "label": "165 mm",
+          "facts": [
+            {
+              "key": "manufacturerSku",
+              "value": "CR-0032-165",
+              "scope": "165 mm",
+              "sourceId": "source-vintage-velo-orange-grand-cru-drillium-110-fluted-double",
+              "statement": "The cited manufacturer page lists manufacturerSku as CR-0032-165 for 165 mm."
+            },
+            {
+              "key": "crankLength",
+              "value": 165,
+              "unit": "mm",
+              "scope": "165 mm",
+              "sourceId": "source-vintage-velo-orange-grand-cru-drillium-110-fluted-double",
+              "statement": "The cited manufacturer page lists crankLength as 165 mm for 165 mm."
+            }
+          ],
+          "sourceIds": [
+            "source-vintage-velo-orange-grand-cru-drillium-110-fluted-double"
+          ]
+        },
+        {
+          "id": "CR-0032-170",
+          "label": "170 mm",
+          "facts": [
+            {
+              "key": "manufacturerSku",
+              "value": "CR-0032-170",
+              "scope": "170 mm",
+              "sourceId": "source-vintage-velo-orange-grand-cru-drillium-110-fluted-double",
+              "statement": "The cited manufacturer page lists manufacturerSku as CR-0032-170 for 170 mm."
+            },
+            {
+              "key": "crankLength",
+              "value": 170,
+              "unit": "mm",
+              "scope": "170 mm",
+              "sourceId": "source-vintage-velo-orange-grand-cru-drillium-110-fluted-double",
+              "statement": "The cited manufacturer page lists crankLength as 170 mm for 170 mm."
+            }
+          ],
+          "sourceIds": [
+            "source-vintage-velo-orange-grand-cru-drillium-110-fluted-double"
+          ]
+        },
+        {
+          "id": "CR-0032-175",
+          "label": "175 mm",
+          "facts": [
+            {
+              "key": "manufacturerSku",
+              "value": "CR-0032-175",
+              "scope": "175 mm",
+              "sourceId": "source-vintage-velo-orange-grand-cru-drillium-110-fluted-double",
+              "statement": "The cited manufacturer page lists manufacturerSku as CR-0032-175 for 175 mm."
+            },
+            {
+              "key": "crankLength",
+              "value": 175,
+              "unit": "mm",
+              "scope": "175 mm",
+              "sourceId": "source-vintage-velo-orange-grand-cru-drillium-110-fluted-double",
+              "statement": "The cited manufacturer page lists crankLength as 175 mm for 175 mm."
+            }
+          ],
+          "sourceIds": [
+            "source-vintage-velo-orange-grand-cru-drillium-110-fluted-double"
+          ]
+        }
+      ],
+      "previewStatus": "unavailable",
+      "previewReason": "Public product image reference recorded separately. A generated approximation or manufacturer photograph is not supplied by this research record."
+    },
+    {
+      "id": "vintage-velo-orange-grand-cru-110-fluted-triple",
+      "brand": "Velo Orange",
+      "model": "Grand Cru 110 Fluted Triple",
+      "category": "cranksets",
+      "family": "Grand Cru",
+      "tags": [
+        "classic",
+        "touring",
+        "triple"
+      ],
+      "sourceIds": [
+        "source-vintage-velo-orange-grand-cru-110-fluted-triple"
+      ],
+      "status": "verified-product",
+      "facts": [
+        {
+          "key": "chainrings",
+          "value": "48/34/24T",
+          "scope": "Grand Cru 110 Fluted Triple",
+          "sourceId": "source-vintage-velo-orange-grand-cru-110-fluted-triple",
+          "statement": "The cited manufacturer page lists chainrings as 48/34/24T."
+        },
+        {
+          "key": "boltCircleDiameter",
+          "value": "110/74",
+          "unit": "mm",
+          "scope": "Grand Cru 110 Fluted Triple",
+          "sourceId": "source-vintage-velo-orange-grand-cru-110-fluted-triple",
+          "statement": "The cited manufacturer page lists boltCircleDiameter as 110/74 mm."
+        },
+        {
+          "key": "qFactor",
+          "value": 160,
+          "unit": "mm",
+          "scope": "Grand Cru 110 Fluted Triple",
+          "sourceId": "source-vintage-velo-orange-grand-cru-110-fluted-triple",
+          "statement": "The cited manufacturer page lists qFactor as 160 mm."
+        },
+        {
+          "key": "crankInterface",
+          "value": "JIS square taper",
+          "scope": "Grand Cru 110 Fluted Triple",
+          "sourceId": "source-vintage-velo-orange-grand-cru-110-fluted-triple",
+          "statement": "The cited manufacturer page lists crankInterface as JIS square taper."
+        },
+        {
+          "key": "pedalThread",
+          "value": "9/16 inch",
+          "scope": "Grand Cru 110 Fluted Triple",
+          "sourceId": "source-vintage-velo-orange-grand-cru-110-fluted-triple",
+          "statement": "The cited manufacturer page lists pedalThread as 9/16 inch."
+        },
+        {
+          "key": "manufacturerSpeedRange",
+          "value": "6–10",
+          "scope": "Manufacturer-stated range; not a complete drivetrain compatibility guarantee",
+          "sourceId": "source-vintage-velo-orange-grand-cru-110-fluted-triple",
+          "statement": "The cited manufacturer page lists manufacturerSpeedRange as 6–10 for Manufacturer-stated range; not a complete drivetrain compatibility guarantee."
+        }
+      ],
+      "variants": [
+        {
+          "id": "CR-0016-165",
+          "label": "165 mm",
+          "facts": [
+            {
+              "key": "manufacturerSku",
+              "value": "CR-0016-165",
+              "scope": "165 mm",
+              "sourceId": "source-vintage-velo-orange-grand-cru-110-fluted-triple",
+              "statement": "The cited manufacturer page lists manufacturerSku as CR-0016-165 for 165 mm."
+            },
+            {
+              "key": "crankLength",
+              "value": 165,
+              "unit": "mm",
+              "scope": "165 mm",
+              "sourceId": "source-vintage-velo-orange-grand-cru-110-fluted-triple",
+              "statement": "The cited manufacturer page lists crankLength as 165 mm for 165 mm."
+            }
+          ],
+          "sourceIds": [
+            "source-vintage-velo-orange-grand-cru-110-fluted-triple"
+          ]
+        },
+        {
+          "id": "CR-0016-170",
+          "label": "170 mm",
+          "facts": [
+            {
+              "key": "manufacturerSku",
+              "value": "CR-0016-170",
+              "scope": "170 mm",
+              "sourceId": "source-vintage-velo-orange-grand-cru-110-fluted-triple",
+              "statement": "The cited manufacturer page lists manufacturerSku as CR-0016-170 for 170 mm."
+            },
+            {
+              "key": "crankLength",
+              "value": 170,
+              "unit": "mm",
+              "scope": "170 mm",
+              "sourceId": "source-vintage-velo-orange-grand-cru-110-fluted-triple",
+              "statement": "The cited manufacturer page lists crankLength as 170 mm for 170 mm."
+            }
+          ],
+          "sourceIds": [
+            "source-vintage-velo-orange-grand-cru-110-fluted-triple"
+          ]
+        },
+        {
+          "id": "CR-0016-175",
+          "label": "175 mm",
+          "facts": [
+            {
+              "key": "manufacturerSku",
+              "value": "CR-0016-175",
+              "scope": "175 mm",
+              "sourceId": "source-vintage-velo-orange-grand-cru-110-fluted-triple",
+              "statement": "The cited manufacturer page lists manufacturerSku as CR-0016-175 for 175 mm."
+            },
+            {
+              "key": "crankLength",
+              "value": 175,
+              "unit": "mm",
+              "scope": "175 mm",
+              "sourceId": "source-vintage-velo-orange-grand-cru-110-fluted-triple",
+              "statement": "The cited manufacturer page lists crankLength as 175 mm for 175 mm."
+            }
+          ],
+          "sourceIds": [
+            "source-vintage-velo-orange-grand-cru-110-fluted-triple"
+          ]
+        }
+      ],
+      "previewStatus": "unavailable",
+      "previewReason": "Public product image reference recorded separately. A generated approximation or manufacturer photograph is not supplied by this research record."
+    },
+    {
+      "id": "dt-swiss-p-1800-spline",
+      "brand": "DT Swiss",
+      "model": "P 1800 SPLINE",
+      "category": "wheelsets",
+      "family": "P 1800 SPLINE",
+      "tags": [
+        "road",
+        "aluminium"
+      ],
+      "sourceIds": [
+        "source-dt-swiss-p-1800-spline"
+      ],
+      "status": "verified-product",
+      "facts": [
+        {
+          "key": "rimMaterial",
+          "value": "Aluminium",
+          "scope": "P 1800 SPLINE",
+          "sourceId": "source-dt-swiss-p-1800-spline",
+          "statement": "The cited manufacturer page lists rimMaterial as Aluminium."
+        },
+        {
+          "key": "rimHeight",
+          "value": 23,
+          "unit": "mm",
+          "scope": "Documented 23 mm rim-brake articles only",
+          "sourceId": "source-dt-swiss-p-1800-spline",
+          "statement": "The cited manufacturer page lists rimHeight as 23 mm for Documented 23 mm rim-brake articles only."
+        }
+      ],
+      "variants": [
+        {
+          "id": "W0P1800HRQMSA21430",
+          "label": "Rear / 23 mm / rim brake / Shimano ROAD",
+          "facts": [
+            {
+              "key": "manufacturerSku",
+              "value": "W0P1800HRQMSA21430",
+              "scope": "Rear / 23 mm / rim brake / Shimano ROAD",
+              "sourceId": "source-dt-swiss-p-1800-spline",
+              "statement": "The cited manufacturer page lists manufacturerSku as W0P1800HRQMSA21430 for Rear / 23 mm / rim brake / Shimano ROAD."
+            },
+            {
+              "key": "position",
+              "value": "Rear",
+              "scope": "Rear / 23 mm / rim brake / Shimano ROAD",
+              "sourceId": "source-dt-swiss-p-1800-spline",
+              "statement": "The cited manufacturer page lists position as Rear for Rear / 23 mm / rim brake / Shimano ROAD."
+            },
+            {
+              "key": "brakeMount",
+              "value": "rim",
+              "scope": "Rear / 23 mm / rim brake / Shimano ROAD",
+              "sourceId": "source-dt-swiss-p-1800-spline",
+              "statement": "The cited manufacturer page lists brakeMount as rim for Rear / 23 mm / rim brake / Shimano ROAD."
+            },
+            {
+              "key": "axleSpacing",
+              "value": 130,
+              "unit": "mm",
+              "scope": "Rear / 23 mm / rim brake / Shimano ROAD",
+              "sourceId": "source-dt-swiss-p-1800-spline",
+              "statement": "The cited manufacturer page lists axleSpacing as 130 mm for Rear / 23 mm / rim brake / Shimano ROAD."
+            },
+            {
+              "key": "axleType",
+              "value": "QR",
+              "scope": "Rear / 23 mm / rim brake / Shimano ROAD",
+              "sourceId": "source-dt-swiss-p-1800-spline",
+              "statement": "The cited manufacturer page lists axleType as QR for Rear / 23 mm / rim brake / Shimano ROAD."
+            },
+            {
+              "key": "weight",
+              "value": 896,
+              "unit": "g",
+              "scope": "Rear / 23 mm / rim brake / Shimano ROAD",
+              "sourceId": "source-dt-swiss-p-1800-spline",
+              "statement": "The cited manufacturer page lists weight as 896 g for Rear / 23 mm / rim brake / Shimano ROAD."
+            },
+            {
+              "key": "rimInternalWidth",
+              "value": 18,
+              "unit": "mm",
+              "scope": "Rear / 23 mm / rim brake / Shimano ROAD",
+              "sourceId": "source-dt-swiss-p-1800-spline",
+              "statement": "The cited manufacturer page lists rimInternalWidth as 18 mm for Rear / 23 mm / rim brake / Shimano ROAD."
+            },
+            {
+              "key": "cassetteInterface",
+              "value": "Shimano ROAD",
+              "scope": "Rear / 23 mm / rim brake / Shimano ROAD",
+              "sourceId": "source-dt-swiss-p-1800-spline",
+              "statement": "The cited manufacturer page lists cassetteInterface as Shimano ROAD for Rear / 23 mm / rim brake / Shimano ROAD."
+            }
+          ],
+          "sourceIds": [
+            "source-dt-swiss-p-1800-spline"
+          ]
+        },
+        {
+          "id": "W0P1800AAQXSA21429",
+          "label": "Front / 23 mm / rim brake",
+          "facts": [
+            {
+              "key": "manufacturerSku",
+              "value": "W0P1800AAQXSA21429",
+              "scope": "Front / 23 mm / rim brake",
+              "sourceId": "source-dt-swiss-p-1800-spline",
+              "statement": "The cited manufacturer page lists manufacturerSku as W0P1800AAQXSA21429 for Front / 23 mm / rim brake."
+            },
+            {
+              "key": "position",
+              "value": "Front",
+              "scope": "Front / 23 mm / rim brake",
+              "sourceId": "source-dt-swiss-p-1800-spline",
+              "statement": "The cited manufacturer page lists position as Front for Front / 23 mm / rim brake."
+            },
+            {
+              "key": "brakeMount",
+              "value": "rim",
+              "scope": "Front / 23 mm / rim brake",
+              "sourceId": "source-dt-swiss-p-1800-spline",
+              "statement": "The cited manufacturer page lists brakeMount as rim for Front / 23 mm / rim brake."
+            },
+            {
+              "key": "axleSpacing",
+              "value": 100,
+              "unit": "mm",
+              "scope": "Front / 23 mm / rim brake",
+              "sourceId": "source-dt-swiss-p-1800-spline",
+              "statement": "The cited manufacturer page lists axleSpacing as 100 mm for Front / 23 mm / rim brake."
+            },
+            {
+              "key": "axleType",
+              "value": "QR",
+              "scope": "Front / 23 mm / rim brake",
+              "sourceId": "source-dt-swiss-p-1800-spline",
+              "statement": "The cited manufacturer page lists axleType as QR for Front / 23 mm / rim brake."
+            },
+            {
+              "key": "weight",
+              "value": 694,
+              "unit": "g",
+              "scope": "Front / 23 mm / rim brake",
+              "sourceId": "source-dt-swiss-p-1800-spline",
+              "statement": "The cited manufacturer page lists weight as 694 g for Front / 23 mm / rim brake."
+            },
+            {
+              "key": "rimInternalWidth",
+              "value": 18,
+              "unit": "mm",
+              "scope": "Front / 23 mm / rim brake",
+              "sourceId": "source-dt-swiss-p-1800-spline",
+              "statement": "The cited manufacturer page lists rimInternalWidth as 18 mm for Front / 23 mm / rim brake."
+            }
+          ],
+          "sourceIds": [
+            "source-dt-swiss-p-1800-spline"
+          ]
+        }
+      ],
+      "previewStatus": "unavailable",
+      "previewReason": "Public product image reference recorded separately. A generated approximation or manufacturer photograph is not supplied by this research record."
+    },
+    {
+      "id": "dt-swiss-er-1400-dicut",
+      "brand": "DT Swiss",
+      "model": "ER 1400 DICUT",
+      "category": "wheelsets",
+      "family": "ER 1400 DICUT",
+      "tags": [
+        "road",
+        "endurance",
+        "aluminium"
+      ],
+      "sourceIds": [
+        "source-dt-swiss-er-1400-dicut"
+      ],
+      "status": "verified-product",
+      "facts": [
+        {
+          "key": "rimMaterial",
+          "value": "Aluminium",
+          "scope": "ER 1400 DICUT",
+          "sourceId": "source-dt-swiss-er-1400-dicut",
+          "statement": "The cited manufacturer page lists rimMaterial as Aluminium."
+        },
+        {
+          "key": "rimHeight",
+          "value": 25,
+          "unit": "mm",
+          "scope": "ER 1400 DICUT",
+          "sourceId": "source-dt-swiss-er-1400-dicut",
+          "statement": "The cited manufacturer page lists rimHeight as 25 mm."
+        },
+        {
+          "key": "rimInternalWidth",
+          "value": 22,
+          "unit": "mm",
+          "scope": "ER 1400 DICUT",
+          "sourceId": "source-dt-swiss-er-1400-dicut",
+          "statement": "The cited manufacturer page lists rimInternalWidth as 22 mm."
+        },
+        {
+          "key": "brakeMount",
+          "value": "center-lock",
+          "scope": "ER 1400 DICUT",
+          "sourceId": "source-dt-swiss-er-1400-dicut",
+          "statement": "The cited manufacturer page lists brakeMount as center-lock."
+        }
+      ],
+      "variants": [
+        {
+          "id": "WER1400NIDISA20985",
+          "label": "Rear / 25 mm / Shimano ROAD mounted",
+          "facts": [
+            {
+              "key": "manufacturerSku",
+              "value": "WER1400NIDISA20985",
+              "scope": "Rear / 25 mm / Shimano ROAD mounted",
+              "sourceId": "source-dt-swiss-er-1400-dicut",
+              "statement": "The cited manufacturer page lists manufacturerSku as WER1400NIDISA20985 for Rear / 25 mm / Shimano ROAD mounted."
+            },
+            {
+              "key": "position",
+              "value": "Rear",
+              "scope": "Rear / 25 mm / Shimano ROAD mounted",
+              "sourceId": "source-dt-swiss-er-1400-dicut",
+              "statement": "The cited manufacturer page lists position as Rear for Rear / 25 mm / Shimano ROAD mounted."
+            },
+            {
+              "key": "axleSpacing",
+              "value": 142,
+              "unit": "mm",
+              "scope": "Rear / 25 mm / Shimano ROAD mounted",
+              "sourceId": "source-dt-swiss-er-1400-dicut",
+              "statement": "The cited manufacturer page lists axleSpacing as 142 mm for Rear / 25 mm / Shimano ROAD mounted."
+            },
+            {
+              "key": "axleType",
+              "value": "12 mm thru axle",
+              "scope": "Rear / 25 mm / Shimano ROAD mounted",
+              "sourceId": "source-dt-swiss-er-1400-dicut",
+              "statement": "The cited manufacturer page lists axleType as 12 mm thru axle for Rear / 25 mm / Shimano ROAD mounted."
+            },
+            {
+              "key": "weight",
+              "value": 875,
+              "unit": "g",
+              "scope": "Rear / 25 mm / Shimano ROAD mounted",
+              "sourceId": "source-dt-swiss-er-1400-dicut",
+              "statement": "The cited manufacturer page lists weight as 875 g for Rear / 25 mm / Shimano ROAD mounted."
+            },
+            {
+              "key": "cassetteInterface",
+              "value": "Shimano ROAD",
+              "scope": "Rear / 25 mm / Shimano ROAD mounted",
+              "sourceId": "source-dt-swiss-er-1400-dicut",
+              "statement": "The cited manufacturer page lists cassetteInterface as Shimano ROAD for Rear / 25 mm / Shimano ROAD mounted."
+            },
+            {
+              "key": "includedFreehubKit",
+              "value": "SRAM XDR (included separately, not mounted)",
+              "scope": "Rear / 25 mm / Shimano ROAD mounted",
+              "sourceId": "source-dt-swiss-er-1400-dicut",
+              "statement": "The cited manufacturer page lists includedFreehubKit as SRAM XDR (included separately, not mounted) for Rear / 25 mm / Shimano ROAD mounted."
+            }
+          ],
+          "sourceIds": [
+            "source-dt-swiss-er-1400-dicut"
+          ]
+        },
+        {
+          "id": "WER1400AIDXSA20984",
+          "label": "Front / 25 mm",
+          "facts": [
+            {
+              "key": "manufacturerSku",
+              "value": "WER1400AIDXSA20984",
+              "scope": "Front / 25 mm",
+              "sourceId": "source-dt-swiss-er-1400-dicut",
+              "statement": "The cited manufacturer page lists manufacturerSku as WER1400AIDXSA20984 for Front / 25 mm."
+            },
+            {
+              "key": "position",
+              "value": "Front",
+              "scope": "Front / 25 mm",
+              "sourceId": "source-dt-swiss-er-1400-dicut",
+              "statement": "The cited manufacturer page lists position as Front for Front / 25 mm."
+            },
+            {
+              "key": "axleSpacing",
+              "value": 100,
+              "unit": "mm",
+              "scope": "Front / 25 mm",
+              "sourceId": "source-dt-swiss-er-1400-dicut",
+              "statement": "The cited manufacturer page lists axleSpacing as 100 mm for Front / 25 mm."
+            },
+            {
+              "key": "axleType",
+              "value": "12 mm thru axle",
+              "scope": "Front / 25 mm",
+              "sourceId": "source-dt-swiss-er-1400-dicut",
+              "statement": "The cited manufacturer page lists axleType as 12 mm thru axle for Front / 25 mm."
+            },
+            {
+              "key": "weight",
+              "value": 723,
+              "unit": "g",
+              "scope": "Front / 25 mm",
+              "sourceId": "source-dt-swiss-er-1400-dicut",
+              "statement": "The cited manufacturer page lists weight as 723 g for Front / 25 mm."
+            }
+          ],
+          "sourceIds": [
+            "source-dt-swiss-er-1400-dicut"
+          ]
+        }
+      ],
+      "previewStatus": "unavailable",
+      "previewReason": "Public product image reference recorded separately. A generated approximation or manufacturer photograph is not supplied by this research record."
+    },
+    {
+      "id": "vintage-velo-orange-voyager",
+      "brand": "Velo Orange",
+      "model": "Voyager Rim",
+      "category": "rims",
+      "family": "Voyager",
+      "tags": [
+        "touring",
+        "classic",
+        "polished"
+      ],
+      "sourceIds": [
+        "source-vintage-velo-orange-voyager"
+      ],
+      "status": "verified-product",
+      "facts": [
+        {
+          "key": "material",
+          "value": "6061-T6 aluminium",
+          "scope": "Voyager Rim",
+          "sourceId": "source-vintage-velo-orange-voyager",
+          "statement": "The cited manufacturer page lists material as 6061-T6 aluminium."
+        },
+        {
+          "key": "construction",
+          "value": "Double wall",
+          "scope": "Voyager Rim",
+          "sourceId": "source-vintage-velo-orange-voyager",
+          "statement": "The cited manufacturer page lists construction as Double wall."
+        },
+        {
+          "key": "finish",
+          "value": "Polished silver",
+          "scope": "Voyager Rim",
+          "sourceId": "source-vintage-velo-orange-voyager",
+          "statement": "The cited manufacturer page lists finish as Polished silver."
+        },
+        {
+          "key": "rimInternalWidth",
+          "value": 22.1,
+          "unit": "mm",
+          "scope": "Voyager Rim",
+          "sourceId": "source-vintage-velo-orange-voyager",
+          "statement": "The cited manufacturer page lists rimInternalWidth as 22.1 mm."
+        },
+        {
+          "key": "rimExternalWidth",
+          "value": 27,
+          "unit": "mm",
+          "scope": "Voyager Rim",
+          "sourceId": "source-vintage-velo-orange-voyager",
+          "statement": "The cited manufacturer page lists rimExternalWidth as 27 mm."
+        },
+        {
+          "key": "manufacturerBrakeUse",
+          "value": "Rim or disc brakes",
+          "scope": "Voyager Rim",
+          "sourceId": "source-vintage-velo-orange-voyager",
+          "statement": "The cited manufacturer page lists manufacturerBrakeUse as Rim or disc brakes."
+        },
+        {
+          "key": "tubelessTyreRequirement",
+          "value": "Folding bead tyres only",
+          "scope": "Voyager Rim",
+          "sourceId": "source-vintage-velo-orange-voyager",
+          "statement": "The cited manufacturer page lists tubelessTyreRequirement as Folding bead tyres only."
+        }
+      ],
+      "variants": [
+        {
+          "id": "WH-0009-32",
+          "label": "26 inch / 32 holes",
+          "facts": [
+            {
+              "key": "manufacturerSku",
+              "value": "WH-0009-32",
+              "scope": "26 inch / 32 holes",
+              "sourceId": "source-vintage-velo-orange-voyager",
+              "statement": "The cited manufacturer page lists manufacturerSku as WH-0009-32 for 26 inch / 32 holes."
+            },
+            {
+              "key": "wheelSize",
+              "value": "26 inch",
+              "scope": "26 inch / 32 holes",
+              "sourceId": "source-vintage-velo-orange-voyager",
+              "statement": "The cited manufacturer page lists wheelSize as 26 inch for 26 inch / 32 holes."
+            },
+            {
+              "key": "spokeHoleCount",
+              "value": 32,
+              "scope": "26 inch / 32 holes",
+              "sourceId": "source-vintage-velo-orange-voyager",
+              "statement": "The cited manufacturer page lists spokeHoleCount as 32 for 26 inch / 32 holes."
+            },
+            {
+              "key": "weight",
+              "value": 576,
+              "unit": "g",
+              "scope": "26 inch / 32 holes",
+              "sourceId": "source-vintage-velo-orange-voyager",
+              "statement": "The cited manufacturer page lists weight as 576 g for 26 inch / 32 holes."
+            }
+          ],
+          "sourceIds": [
+            "source-vintage-velo-orange-voyager"
+          ]
+        },
+        {
+          "id": "WH-0009-36",
+          "label": "26 inch / 36 holes",
+          "facts": [
+            {
+              "key": "manufacturerSku",
+              "value": "WH-0009-36",
+              "scope": "26 inch / 36 holes",
+              "sourceId": "source-vintage-velo-orange-voyager",
+              "statement": "The cited manufacturer page lists manufacturerSku as WH-0009-36 for 26 inch / 36 holes."
+            },
+            {
+              "key": "wheelSize",
+              "value": "26 inch",
+              "scope": "26 inch / 36 holes",
+              "sourceId": "source-vintage-velo-orange-voyager",
+              "statement": "The cited manufacturer page lists wheelSize as 26 inch for 26 inch / 36 holes."
+            },
+            {
+              "key": "spokeHoleCount",
+              "value": 36,
+              "scope": "26 inch / 36 holes",
+              "sourceId": "source-vintage-velo-orange-voyager",
+              "statement": "The cited manufacturer page lists spokeHoleCount as 36 for 26 inch / 36 holes."
+            },
+            {
+              "key": "weight",
+              "value": 576,
+              "unit": "g",
+              "scope": "26 inch / 36 holes",
+              "sourceId": "source-vintage-velo-orange-voyager",
+              "statement": "The cited manufacturer page lists weight as 576 g for 26 inch / 36 holes."
+            }
+          ],
+          "sourceIds": [
+            "source-vintage-velo-orange-voyager"
+          ]
+        },
+        {
+          "id": "WH-0010-32",
+          "label": "650b / 32 holes",
+          "facts": [
+            {
+              "key": "manufacturerSku",
+              "value": "WH-0010-32",
+              "scope": "650b / 32 holes",
+              "sourceId": "source-vintage-velo-orange-voyager",
+              "statement": "The cited manufacturer page lists manufacturerSku as WH-0010-32 for 650b / 32 holes."
+            },
+            {
+              "key": "wheelSize",
+              "value": "650b",
+              "scope": "650b / 32 holes",
+              "sourceId": "source-vintage-velo-orange-voyager",
+              "statement": "The cited manufacturer page lists wheelSize as 650b for 650b / 32 holes."
+            },
+            {
+              "key": "spokeHoleCount",
+              "value": 32,
+              "scope": "650b / 32 holes",
+              "sourceId": "source-vintage-velo-orange-voyager",
+              "statement": "The cited manufacturer page lists spokeHoleCount as 32 for 650b / 32 holes."
+            },
+            {
+              "key": "weight",
+              "value": 597,
+              "unit": "g",
+              "scope": "650b / 32 holes",
+              "sourceId": "source-vintage-velo-orange-voyager",
+              "statement": "The cited manufacturer page lists weight as 597 g for 650b / 32 holes."
+            }
+          ],
+          "sourceIds": [
+            "source-vintage-velo-orange-voyager"
+          ]
+        },
+        {
+          "id": "WH-0010-36",
+          "label": "650b / 36 holes",
+          "facts": [
+            {
+              "key": "manufacturerSku",
+              "value": "WH-0010-36",
+              "scope": "650b / 36 holes",
+              "sourceId": "source-vintage-velo-orange-voyager",
+              "statement": "The cited manufacturer page lists manufacturerSku as WH-0010-36 for 650b / 36 holes."
+            },
+            {
+              "key": "wheelSize",
+              "value": "650b",
+              "scope": "650b / 36 holes",
+              "sourceId": "source-vintage-velo-orange-voyager",
+              "statement": "The cited manufacturer page lists wheelSize as 650b for 650b / 36 holes."
+            },
+            {
+              "key": "spokeHoleCount",
+              "value": 36,
+              "scope": "650b / 36 holes",
+              "sourceId": "source-vintage-velo-orange-voyager",
+              "statement": "The cited manufacturer page lists spokeHoleCount as 36 for 650b / 36 holes."
+            },
+            {
+              "key": "weight",
+              "value": 597,
+              "unit": "g",
+              "scope": "650b / 36 holes",
+              "sourceId": "source-vintage-velo-orange-voyager",
+              "statement": "The cited manufacturer page lists weight as 597 g for 650b / 36 holes."
+            }
+          ],
+          "sourceIds": [
+            "source-vintage-velo-orange-voyager"
+          ]
+        },
+        {
+          "id": "WH-0011-32",
+          "label": "700c / 32 holes",
+          "facts": [
+            {
+              "key": "manufacturerSku",
+              "value": "WH-0011-32",
+              "scope": "700c / 32 holes",
+              "sourceId": "source-vintage-velo-orange-voyager",
+              "statement": "The cited manufacturer page lists manufacturerSku as WH-0011-32 for 700c / 32 holes."
+            },
+            {
+              "key": "wheelSize",
+              "value": "700c",
+              "scope": "700c / 32 holes",
+              "sourceId": "source-vintage-velo-orange-voyager",
+              "statement": "The cited manufacturer page lists wheelSize as 700c for 700c / 32 holes."
+            },
+            {
+              "key": "spokeHoleCount",
+              "value": 32,
+              "scope": "700c / 32 holes",
+              "sourceId": "source-vintage-velo-orange-voyager",
+              "statement": "The cited manufacturer page lists spokeHoleCount as 32 for 700c / 32 holes."
+            },
+            {
+              "key": "weight",
+              "value": 638,
+              "unit": "g",
+              "scope": "700c / 32 holes",
+              "sourceId": "source-vintage-velo-orange-voyager",
+              "statement": "The cited manufacturer page lists weight as 638 g for 700c / 32 holes."
+            }
+          ],
+          "sourceIds": [
+            "source-vintage-velo-orange-voyager"
+          ]
+        },
+        {
+          "id": "WH-0011-36",
+          "label": "700c / 36 holes",
+          "facts": [
+            {
+              "key": "manufacturerSku",
+              "value": "WH-0011-36",
+              "scope": "700c / 36 holes",
+              "sourceId": "source-vintage-velo-orange-voyager",
+              "statement": "The cited manufacturer page lists manufacturerSku as WH-0011-36 for 700c / 36 holes."
+            },
+            {
+              "key": "wheelSize",
+              "value": "700c",
+              "scope": "700c / 36 holes",
+              "sourceId": "source-vintage-velo-orange-voyager",
+              "statement": "The cited manufacturer page lists wheelSize as 700c for 700c / 36 holes."
+            },
+            {
+              "key": "spokeHoleCount",
+              "value": 36,
+              "scope": "700c / 36 holes",
+              "sourceId": "source-vintage-velo-orange-voyager",
+              "statement": "The cited manufacturer page lists spokeHoleCount as 36 for 700c / 36 holes."
+            },
+            {
+              "key": "weight",
+              "value": 638,
+              "unit": "g",
+              "scope": "700c / 36 holes",
+              "sourceId": "source-vintage-velo-orange-voyager",
+              "statement": "The cited manufacturer page lists weight as 638 g for 700c / 36 holes."
+            }
+          ],
+          "sourceIds": [
+            "source-vintage-velo-orange-voyager"
+          ]
+        }
+      ],
+      "previewStatus": "unavailable",
+      "previewReason": "Public product image reference recorded separately. A generated approximation or manufacturer photograph is not supplied by this research record."
+    },
+    {
+      "id": "vintage-velo-orange-porteur-rack",
+      "brand": "Velo Orange",
+      "model": "Porteur Rack",
+      "category": "racks",
+      "family": "Porteur",
+      "tags": [
+        "utility",
+        "front-rack",
+        "classic"
+      ],
+      "sourceIds": [
+        "source-vintage-velo-orange-porteur-rack"
+      ],
+      "status": "verified-product",
+      "facts": [
+        {
+          "key": "material",
+          "value": "Stainless steel",
+          "scope": "Porteur Rack",
+          "sourceId": "source-vintage-velo-orange-porteur-rack",
+          "statement": "The cited manufacturer page lists material as Stainless steel."
+        },
+        {
+          "key": "finish",
+          "value": "Polished",
+          "scope": "Porteur Rack",
+          "sourceId": "source-vintage-velo-orange-porteur-rack",
+          "statement": "The cited manufacturer page lists finish as Polished."
+        },
+        {
+          "key": "weight",
+          "value": 1.08,
+          "unit": "kg",
+          "scope": "Rack including hardware",
+          "sourceId": "source-vintage-velo-orange-porteur-rack",
+          "statement": "The cited manufacturer page lists weight as 1.08 kg for Rack including hardware."
+        },
+        {
+          "key": "manufacturerLoadLimit",
+          "value": 50,
+          "unit": "lb",
+          "scope": "Four-point mounting only, as defined by manufacturer",
+          "sourceId": "source-vintage-velo-orange-porteur-rack",
+          "statement": "The cited manufacturer page lists manufacturerLoadLimit as 50 lb for Four-point mounting only, as defined by manufacturer."
+        },
+        {
+          "key": "manufacturerLoadLimit",
+          "value": 25,
+          "unit": "lb",
+          "scope": "Three-point mounting only, as defined by manufacturer",
+          "sourceId": "source-vintage-velo-orange-porteur-rack",
+          "statement": "The cited manufacturer page lists manufacturerLoadLimit as 25 lb for Three-point mounting only, as defined by manufacturer."
+        },
+        {
+          "key": "platformDimensions",
+          "value": "36 × 29",
+          "unit": "cm",
+          "scope": "Porteur Rack platform; page does not name the width/length orientation",
+          "sourceId": "source-vintage-velo-orange-porteur-rack",
+          "statement": "The manufacturer gives platform dimensions of 36 cm × 29 cm."
+        }
+      ],
+      "variants": [
+        {
+          "id": "RA-0020",
+          "label": "Porteur rack / RA-0020",
+          "facts": [
+            {
+              "key": "manufacturerSku",
+              "value": "RA-0020",
+              "scope": "Porteur rack / RA-0020",
+              "sourceId": "source-vintage-velo-orange-porteur-rack",
+              "statement": "The cited manufacturer page lists manufacturerSku as RA-0020 for Porteur rack / RA-0020."
+            }
+          ],
+          "sourceIds": [
+            "source-vintage-velo-orange-porteur-rack"
+          ]
+        }
+      ],
+      "previewStatus": "unavailable",
+      "previewReason": "Public product image reference recorded separately. A generated approximation or manufacturer photograph is not supplied by this research record."
+    },
+    {
+      "id": "mks-allways",
+      "brand": "MKS",
+      "model": "ALLWAYS",
+      "category": "pedals",
+      "family": "ALLWAYS",
+      "tags": [
+        "touring",
+        "flat",
+        "double-sided"
+      ],
+      "sourceIds": [
+        "source-mks-allways"
+      ],
+      "status": "verified-product",
+      "facts": [
+        {
+          "key": "bodyMaterial",
+          "value": "Alloy",
+          "scope": "ALLWAYS",
+          "sourceId": "source-mks-allways",
+          "statement": "The cited manufacturer page lists bodyMaterial as Alloy."
+        },
+        {
+          "key": "width",
+          "value": 84,
+          "unit": "mm",
+          "scope": "ALLWAYS",
+          "sourceId": "source-mks-allways",
+          "statement": "The cited manufacturer page lists width as 84 mm."
+        },
+        {
+          "key": "length",
+          "value": 110,
+          "unit": "mm",
+          "scope": "ALLWAYS",
+          "sourceId": "source-mks-allways",
+          "statement": "The cited manufacturer page lists length as 110 mm."
+        },
+        {
+          "key": "bearingSystem",
+          "value": "Triple sealed bearings",
+          "scope": "ALLWAYS",
+          "sourceId": "source-mks-allways",
+          "statement": "The cited manufacturer page lists bearingSystem as Triple sealed bearings."
+        },
+        {
+          "key": "weight",
+          "value": 381,
+          "unit": "g",
+          "scope": "Page-listed pair; standard ALLWAYS",
+          "sourceId": "source-mks-allways",
+          "statement": "The cited manufacturer page lists weight as 381 g for Page-listed pair; standard ALLWAYS."
+        },
+        {
+          "key": "pedalThread",
+          "value": "9/16 inch",
+          "scope": "Standard axle version",
+          "sourceId": "source-mks-allways",
+          "statement": "The cited manufacturer page lists pedalThread as 9/16 inch for Standard axle version."
+        },
+        {
+          "key": "sides",
+          "value": "Double-sided",
+          "scope": "ALLWAYS",
+          "sourceId": "source-mks-allways",
+          "statement": "The cited manufacturer page lists sides as Double-sided."
+        },
+        {
+          "key": "colourOptions",
+          "value": "Black; Silver",
+          "scope": "ALLWAYS",
+          "sourceId": "source-mks-allways",
+          "statement": "The cited manufacturer page lists colourOptions as Black; Silver."
+        }
+      ],
+      "variants": [],
+      "previewStatus": "unavailable",
+      "previewReason": "Public product image reference recorded separately. A generated approximation or manufacturer photograph is not supplied by this research record."
+    }
+  ],
+  "backlog": [],
+  "referenceImages": [
+    {
+      "id": "reference-velo-orange-enterprise-front-wheel",
+      "productId": "velo-orange-enterprise-front-wheel",
+      "sourcePageUrl": "https://velo-orange.com/products/copy-of-700c-pbp-front-wheel",
+      "imageUrl": "https://velo-orange.com/cdn/shop/products/frontrimbrake.jpg?v=1605037063",
+      "reviewedAt": "2026-10-18",
+      "publisher": "Velo Orange",
+      "imageKind": "manufacturer-product-photograph-reference",
+      "evidence": "Image URL linked by official product page HTML or public product metadata; no rights grant inferred.",
+      "variantScope": "Front Enterprise wheel; the image is shared by the size selector, so 700c versus 27-inch is not established from pixels.",
+      "angle": "Product gallery; angle not independently reviewed in this metadata task.",
+      "rights": "Publicly viewable manufacturer reference. No redistribution permission established.",
+      "bundled": false,
+      "generated": false,
+      "previewUse": "Reference for a separately labelled generated approximation; never dimensional or compatibility evidence."
+    },
+    {
+      "id": "reference-velo-orange-enterprise-rear-wheel-130",
+      "productId": "velo-orange-enterprise-rear-wheel-130",
+      "sourcePageUrl": "https://velo-orange.com/products/700c-enterprise-rear-wheel-130mm",
+      "imageUrl": "https://velo-orange.com/cdn/shop/files/DSC04716-2.jpg?v=1783616404",
+      "reviewedAt": "2026-10-18",
+      "publisher": "Velo Orange",
+      "imageKind": "manufacturer-product-photograph-reference",
+      "evidence": "Image URL linked by official product page HTML or public product metadata; no rights grant inferred.",
+      "variantScope": "700c Enterprise rear wheel; freehub choice not identified.",
+      "angle": "Product gallery; angle not independently reviewed in this metadata task.",
+      "rights": "Publicly viewable manufacturer reference. No redistribution permission established.",
+      "bundled": false,
+      "generated": false,
+      "previewUse": "Reference for a separately labelled generated approximation; never dimensional or compatibility evidence."
+    },
+    {
+      "id": "reference-vintage-brooks-england-cambium-c17",
+      "productId": "vintage-brooks-england-cambium-c17",
+      "sourcePageUrl": "https://www.brooksengland.com/en-gb/products/saddles-cambium-c17-mud-green-c170000060401",
+      "imageUrl": "https://www.brooksengland.com/cdn/shop/files/fde37f1e011bc77b9bae1eae5f65ed2beabba20c_C201000A00401_C170000060401_Brooks_England_4_c17_mud_green_cambium_saddle_side.jpg?v=1781172303",
+      "reviewedAt": "2026-10-18",
+      "publisher": "Brooks England",
+      "imageKind": "manufacturer-product-photograph-reference",
+      "evidence": "Image URL linked by official product page HTML or public product metadata; no rights grant inferred.",
+      "variantScope": "C170000060401 / Mud Green",
+      "angle": "Side view indicated by the official filename; pixel inspection not performed here.",
+      "rights": "Publicly viewable manufacturer reference. No redistribution permission established.",
+      "bundled": false,
+      "generated": false,
+      "previewUse": "Reference for a separately labelled generated approximation; never dimensional or compatibility evidence."
+    },
+    {
+      "id": "reference-brooks-england-cambium-c15",
+      "productId": "brooks-england-cambium-c15",
+      "sourcePageUrl": "https://www.brooksengland.com/en-gb/products/saddles-cambium-c15-black-c150000056300",
+      "imageUrl": "https://www.brooksengland.com/cdn/shop/files/7f9b905272bafd8ddd9c0701fea0c44925fac33d_C205000A06300_C150000056300_Brooks_England_4_c15_black_cambium_saddle_side.jpg?v=1781172288",
+      "reviewedAt": "2026-10-18",
+      "publisher": "Brooks England",
+      "imageKind": "manufacturer-product-photograph-reference",
+      "evidence": "Image URL linked by official product page HTML or public product metadata; no rights grant inferred.",
+      "variantScope": "C150000056300 / Black",
+      "angle": "Side view indicated by the official filename; pixel inspection not performed here.",
+      "rights": "Publicly viewable manufacturer reference. No redistribution permission established.",
+      "bundled": false,
+      "generated": false,
+      "previewUse": "Reference for a separately labelled generated approximation; never dimensional or compatibility evidence."
+    },
+    {
+      "id": "reference-brooks-england-b67",
+      "productId": "brooks-england-b67",
+      "sourcePageUrl": "https://www.brooksengland.com/en-gb/products/saddles-leather-b67-black-b427hs0a07202",
+      "imageUrl": "https://www.brooksengland.com/cdn/shop/files/2016678d19728e2f2ddbcffe8df5c56b981ae979_B427HS0A07202_B427HS0A07202_Brooks_England_4_b67_black_leather_saddle_side.jpg?v=1781163277",
+      "reviewedAt": "2026-10-18",
+      "publisher": "Brooks England",
+      "imageKind": "manufacturer-product-photograph-reference",
+      "evidence": "Image URL linked by official product page HTML or public product metadata; no rights grant inferred.",
+      "variantScope": "B427HS0A07202 / Black",
+      "angle": "Side view indicated by the official filename; pixel inspection not performed here.",
+      "rights": "Publicly viewable manufacturer reference. No redistribution permission established.",
+      "bundled": false,
+      "generated": false,
+      "previewUse": "Reference for a separately labelled generated approximation; never dimensional or compatibility evidence."
+    },
+    {
+      "id": "reference-brooks-england-cambium-c67",
+      "productId": "brooks-england-cambium-c67",
+      "sourcePageUrl": "https://www.brooksengland.com/en-gb/products/saddles-cambium-c67-black-c670000020010",
+      "imageUrl": "https://www.brooksengland.com/cdn/shop/files/6efe6a1e42160ef0b45d61ca6ccc0b6ab8ff52fb_SCM67NYA00000_C670000020010_Brooks_England_4_c67_black_cambium_saddle_side.jpg?v=1781172329",
+      "reviewedAt": "2026-10-18",
+      "publisher": "Brooks England",
+      "imageKind": "manufacturer-product-photograph-reference",
+      "evidence": "Image URL linked by official product page HTML or public product metadata; no rights grant inferred.",
+      "variantScope": "C670000020010 / Black",
+      "angle": "Side view indicated by the official filename; pixel inspection not performed here.",
+      "rights": "Publicly viewable manufacturer reference. No redistribution permission established.",
+      "bundled": false,
+      "generated": false,
+      "previewUse": "Reference for a separately labelled generated approximation; never dimensional or compatibility evidence."
+    },
+    {
+      "id": "reference-shimano-fc-r7000",
+      "productId": "shimano-fc-r7000",
+      "sourcePageUrl": "https://bike.shimano.com/en-SG/products/components/pdp.P-FC-R7000.html",
+      "imageUrl": "https://dassets.shimano.com/content/dam/global/cg1SHICCycling/final/products/cg2SHICComponent/cg3SHICCrankset/cg4SHICCrankset/P-FC-R7000_2019NPC0012.jpg",
+      "reviewedAt": "2026-10-18",
+      "publisher": "Shimano",
+      "imageKind": "manufacturer-product-photograph-reference",
+      "evidence": "Image URL linked by official product page HTML or public product metadata; no rights grant inferred.",
+      "variantScope": "FC-R7000 product gallery; exact chainring and arm length not established.",
+      "angle": "Official primary image; pixel inspection not performed here.",
+      "rights": "Publicly viewable manufacturer reference. No redistribution permission established.",
+      "bundled": false,
+      "generated": false,
+      "previewUse": "Reference for a separately labelled generated approximation; never dimensional or compatibility evidence."
+    },
+    {
+      "id": "reference-shimano-fc-r8100",
+      "productId": "shimano-fc-r8100",
+      "sourcePageUrl": "https://bike.shimano.com/en-SG/products/components/pdp.P-FC-R8100.html",
+      "imageUrl": "https://dassets.shimano.com/content/dam/global/cg1SHICCycling/final/products/cg2SHICComponent/cg3SHICCrankset/cg4SHICCrankset/FC-R8100-52-36T-shic219-primary_1.jpg",
+      "reviewedAt": "2026-10-18",
+      "publisher": "Shimano",
+      "imageKind": "manufacturer-product-photograph-reference",
+      "evidence": "Image URL linked by official product page HTML or public product metadata; no rights grant inferred.",
+      "variantScope": "52/36T indicated by official filename; crank arm length not established.",
+      "angle": "Official primary image; pixel inspection not performed here.",
+      "rights": "Publicly viewable manufacturer reference. No redistribution permission established.",
+      "bundled": false,
+      "generated": false,
+      "previewUse": "Reference for a separately labelled generated approximation; never dimensional or compatibility evidence."
+    },
+    {
+      "id": "reference-vintage-velo-orange-grand-cru-50-4-bcd",
+      "productId": "vintage-velo-orange-grand-cru-50-4-bcd",
+      "sourcePageUrl": "https://velo-orange.com/collections/cranks/products/grand-cru-50-4bcd-crankset-mkii",
+      "imageUrl": "https://velo-orange.com/cdn/shop/products/crankset_032bb4d9-37fa-4ec7-b09a-691cc23b38d8.jpg?v=1521003204",
+      "reviewedAt": "2026-10-18",
+      "publisher": "Velo Orange",
+      "imageKind": "manufacturer-product-photograph-reference",
+      "evidence": "Image URL linked by official product page HTML or public product metadata; no rights grant inferred.",
+      "variantScope": "Grand Cru 50.4 BCD / 46–30T; arm length not established.",
+      "angle": "Product gallery; angle not independently reviewed in this metadata task.",
+      "rights": "Publicly viewable manufacturer reference. No redistribution permission established.",
+      "bundled": false,
+      "generated": false,
+      "previewUse": "Reference for a separately labelled generated approximation; never dimensional or compatibility evidence."
+    },
+    {
+      "id": "reference-vintage-velo-orange-grand-cru-drillium-110-fluted-double",
+      "productId": "vintage-velo-orange-grand-cru-drillium-110-fluted-double",
+      "sourcePageUrl": "https://velo-orange.com/collections/cranks/products/drillium-fluted-110-double-crankset-34x48t",
+      "imageUrl": "https://velo-orange.com/cdn/shop/products/crankset.jpg?v=1654185976",
+      "reviewedAt": "2026-10-18",
+      "publisher": "Velo Orange",
+      "imageKind": "manufacturer-product-photograph-reference",
+      "evidence": "Image URL linked by official product page HTML or public product metadata; no rights grant inferred.",
+      "variantScope": "Drillium double / 48–34T; arm length not established.",
+      "angle": "Product gallery; angle not independently reviewed in this metadata task.",
+      "rights": "Publicly viewable manufacturer reference. No redistribution permission established.",
+      "bundled": false,
+      "generated": false,
+      "previewUse": "Reference for a separately labelled generated approximation; never dimensional or compatibility evidence."
+    },
+    {
+      "id": "reference-vintage-velo-orange-grand-cru-110-fluted-triple",
+      "productId": "vintage-velo-orange-grand-cru-110-fluted-triple",
+      "sourcePageUrl": "https://velo-orange.com/collections/cranks/products/grand-cru-110-fluted-triple-crankset-24x34x48t",
+      "imageUrl": "https://velo-orange.com/cdn/shop/products/3_4_1_16.jpg?v=1507087091",
+      "reviewedAt": "2026-10-18",
+      "publisher": "Velo Orange",
+      "imageKind": "manufacturer-product-photograph-reference",
+      "evidence": "Image URL linked by official product page HTML or public product metadata; no rights grant inferred.",
+      "variantScope": "Grand Cru triple / 48–34–24T; arm length not established.",
+      "angle": "Product gallery; angle not independently reviewed in this metadata task.",
+      "rights": "Publicly viewable manufacturer reference. No redistribution permission established.",
+      "bundled": false,
+      "generated": false,
+      "previewUse": "Reference for a separately labelled generated approximation; never dimensional or compatibility evidence."
+    },
+    {
+      "id": "reference-dt-swiss-p-1800-spline",
+      "productId": "dt-swiss-p-1800-spline",
+      "sourcePageUrl": "https://www.dtswiss.com/en/wheels/wheels-road/performance/p-1800-spline",
+      "imageUrl": "https://d2a13k6araex7u.cloudfront.net/itc/00/00/00/00/00/00/00/00/70/00/21/43/3/PHO_W0P1800HRQMS021430_WEB_SHO_001.jpg",
+      "reviewedAt": "2026-10-18",
+      "publisher": "DT Swiss",
+      "imageKind": "manufacturer-product-photograph-reference",
+      "evidence": "Image URL linked by official product page HTML or public product metadata; no rights grant inferred.",
+      "variantScope": "P 1800 SPLINE rear rim-brake product gallery; selected record W0P1800HRQMSA21430.",
+      "angle": "Product shot; pixel inspection not performed here.",
+      "rights": "Publicly viewable manufacturer reference. No redistribution permission established.",
+      "bundled": false,
+      "generated": false,
+      "previewUse": "Reference for a separately labelled generated approximation; never dimensional or compatibility evidence."
+    },
+    {
+      "id": "reference-dt-swiss-er-1400-dicut",
+      "productId": "dt-swiss-er-1400-dicut",
+      "sourcePageUrl": "https://www.dtswiss.com/en/wheels/wheels-road/endurance/er-1400-dicut",
+      "imageUrl": "https://d2a13k6araex7u.cloudfront.net/itc/00/00/00/00/00/00/00/00/70/00/20/99/0/PHO_WER1400NIDIS020985_WEB_SHO_001.jpg",
+      "reviewedAt": "2026-10-18",
+      "publisher": "DT Swiss",
+      "imageKind": "manufacturer-product-photograph-reference",
+      "evidence": "Image URL linked by official product page HTML or public product metadata; no rights grant inferred.",
+      "variantScope": "ER 1400 DICUT rear product gallery; selected record WER1400NIDISA20985.",
+      "angle": "Product shot; pixel inspection not performed here.",
+      "rights": "Publicly viewable manufacturer reference. No redistribution permission established.",
+      "bundled": false,
+      "generated": false,
+      "previewUse": "Reference for a separately labelled generated approximation; never dimensional or compatibility evidence."
+    },
+    {
+      "id": "reference-vintage-velo-orange-voyager",
+      "productId": "vintage-velo-orange-voyager",
+      "sourcePageUrl": "https://velo-orange.com/products/voyager-rim",
+      "imageUrl": "https://velo-orange.com/cdn/shop/files/DSC03702.jpg?v=1757693623",
+      "reviewedAt": "2026-10-18",
+      "publisher": "Velo Orange",
+      "imageKind": "manufacturer-product-photograph-reference",
+      "evidence": "Image URL linked by official product page HTML or public product metadata; no rights grant inferred.",
+      "variantScope": "Voyager rim gallery; size and spoke-hole variant not established.",
+      "angle": "Product photograph listed separately from the gallery's technical drawing; pixel inspection not performed here.",
+      "rights": "Publicly viewable manufacturer reference. No redistribution permission established.",
+      "bundled": false,
+      "generated": false,
+      "previewUse": "Reference for a separately labelled generated approximation; never dimensional or compatibility evidence."
+    },
+    {
+      "id": "reference-vintage-velo-orange-porteur-rack",
+      "productId": "vintage-velo-orange-porteur-rack",
+      "sourcePageUrl": "https://velo-orange.com/products/vo-porteur-rack",
+      "imageUrl": "https://velo-orange.com/cdn/shop/files/DSC03487droppedout.jpg?v=1753721491",
+      "reviewedAt": "2026-10-18",
+      "publisher": "Velo Orange",
+      "imageKind": "manufacturer-product-photograph-reference",
+      "evidence": "Image URL linked by official product page HTML or public product metadata; no rights grant inferred.",
+      "variantScope": "Porteur Rack / RA-0020",
+      "angle": "Official product gallery image; exact angle not independently reviewed here.",
+      "rights": "Publicly viewable manufacturer reference. No redistribution permission established.",
+      "bundled": false,
+      "generated": false,
+      "previewUse": "Reference for a separately labelled generated approximation; never dimensional or compatibility evidence."
+    },
+    {
+      "id": "reference-mks-allways",
+      "productId": "mks-allways",
+      "sourcePageUrl": "https://mkspedal.com/?q=en/product/node/303",
+      "imageUrl": "https://mkspedal.com/sites/default/files/styles/product_image/public/media/2018/07/05/ALLWAYS_BK1_2.jpg?itok=i_VBp9BU",
+      "reviewedAt": "2026-10-18",
+      "publisher": "MKS",
+      "imageKind": "manufacturer-product-photograph-reference",
+      "evidence": "Image URL linked by official product page HTML or public product metadata; no rights grant inferred.",
+      "variantScope": "ALLWAYS black gallery image; do not infer Ezy Superior hardware from this reference.",
+      "angle": "Product gallery; pixel inspection not performed here.",
+      "rights": "Publicly viewable manufacturer reference. No redistribution permission established.",
+      "bundled": false,
+      "generated": false,
+      "previewUse": "Reference for a separately labelled generated approximation; never dimensional or compatibility evidence."
+    },
+    {
+      "id": "reference-vintage-brooks-england-b17",
+      "productId": "vintage-brooks-england-b17",
+      "sourcePageUrl": "https://www.brooksengland.com/en-gb/products/saddles-leather-b17-racing-green-b211000a07207",
+      "imageUrl": "https://www.brooksengland.com/cdn/shop/files/fec918cdf3b3adfedf66a244be9266c124f1238f_B211000A07207_B211000A07207_Brooks_England_4_B17_british_racing_green_right_side.jpg?v=1790175865&width=1600",
+      "reviewedAt": "2026-10-18",
+      "publisher": "Brooks England",
+      "imageKind": "manufacturer-product-photograph-reference",
+      "evidence": "Image URL linked by official product page HTML or public product metadata; no rights grant inferred.",
+      "variantScope": "B17 / Racing Green / B211000A07207; existing catalogue record, not an additional product.",
+      "angle": "Right-side view indicated by official filename. Asset-generation task separately inspected the reference.",
+      "rights": "Publicly viewable manufacturer reference. No redistribution permission established.",
+      "bundled": false,
+      "generated": false,
+      "previewUse": "Reference for a separately labelled generated approximation; never dimensional or compatibility evidence."
+    },
+    {
+      "id": "reference-vintage-ene-ciclo-dia-compe-chain-wheel-double",
+      "productId": "vintage-ene-ciclo-dia-compe-chain-wheel-double",
+      "sourcePageUrl": "https://www.diacompe.com.tw/product/ene-ciclo-chain-wheel-double/",
+      "imageUrl": "https://www.diacompe.com.tw/wp-content/uploads/2021/06/ENE-CICLO-CHAIN-WHEEL-DOUBLE-575x380.jpg",
+      "reviewedAt": "2026-10-18",
+      "publisher": "ENE Ciclo (Dia-Compe)",
+      "imageKind": "manufacturer-product-photograph-reference",
+      "evidence": "Image URL linked by official product page HTML or public product metadata; no rights grant inferred.",
+      "variantScope": "ENE CICLO Double; pictured chainring choice and crank arm length are unresolved. Existing catalogue record.",
+      "angle": "Silver product photograph. Asset-generation task separately inspected the reference.",
+      "rights": "Publicly viewable manufacturer reference. No redistribution permission established.",
+      "bundled": false,
+      "generated": false,
+      "previewUse": "Reference for a separately labelled generated approximation; never dimensional or compatibility evidence."
+    },
+    {
+      "id": "reference-shimano-fc-r7100",
+      "productId": "shimano-fc-r7100",
+      "sourcePageUrl": "https://bike.shimano.com/products/components/pdp.P-FC-R7100.html",
+      "imageUrl": "https://dassets.shimano.com/content/dam/global/cg1SHICCycling/final/products/cg2SHICComponent/cg3SHICCrankset/cg4SHICCrankset/FC-R7100-50-34T-shic6-primary_1.jpg",
+      "reviewedAt": "2026-10-18",
+      "publisher": "Shimano",
+      "imageKind": "manufacturer-product-photograph-reference",
+      "evidence": "Image URL linked by official product page HTML or public product metadata; no rights grant inferred.",
+      "variantScope": "FC-R7100 / 50–34T reference only; not a 52–36T photograph. Existing catalogue record.",
+      "angle": "Official primary image; pixel inspection not performed in this metadata task.",
+      "rights": "Publicly viewable manufacturer reference. No redistribution permission established.",
+      "bundled": false,
+      "generated": false,
+      "previewUse": "Reference for a separately labelled generated approximation; never dimensional or compatibility evidence."
+    }
+  ],
+  "research": {
+    "reviewedAt": "2026-10-18",
+    "scope": "Bounded second expansion: 16 new verified model/family records, 27 documented article or size variants, 18 manufacturer source pages. Includes 19 separate image reference records (16 new products and 3 existing models).",
+    "existingProductsReferenced": [
+      "vintage-brooks-england-b17",
+      "vintage-ene-ciclo-dia-compe-chain-wheel-double",
+      "shimano-fc-r7100"
+    ],
+    "resolvedBacklogIds": [
+      "vintage-brooks-england-cambium-c17",
+      "vintage-velo-orange-grand-cru-50-4-bcd",
+      "vintage-velo-orange-grand-cru-drillium-110-fluted-double",
+      "vintage-velo-orange-grand-cru-110-fluted-triple",
+      "vintage-velo-orange-voyager",
+      "vintage-velo-orange-porteur-rack"
+    ],
+    "verificationPolicy": "Facts derive from explicit manufacturer text or public product article metadata. Images, generated outputs and a user's bike photograph never establish compatibility. Listed size/colour options are not multiplied into invented SKUs. Sources may be cached; review date does not guarantee current inventory or pricing.",
+    "reviewFailures": [
+      {
+        "url": "https://bike.shimano.com/en-US/products/components/pdp.P-FC-R7000.html",
+        "outcome": "Regional product fetch failed; official en-SG page provided verified product content instead."
+      },
+      {
+        "url": "https://bike.shimano.com/en-SG/products/components/pdp.P-FC-R9200.html",
+        "outcome": "Attempted page did not provide usable product evidence in this research pass; not added."
+      },
+      {
+        "url": "https://www.brooksengland.com/en-gb/flyer.html",
+        "outcome": "Attempted legacy page did not provide usable product evidence in this research pass; not added."
+      },
+      {
+        "url": "https://velo-orange.com/products/vo-porteur-rack.js",
+        "outcome": "Local public metadata fetch failed; manufacturer product page was readable through web tooling and provided article and image metadata."
+      },
+      {
+        "url": "https://velo-orange.myshopify.com/products/copy-of-700c-pbp-front-wheel.js",
+        "outcome": "Alternative public storefront metadata endpoint unavailable via web tooling. Original manufacturer page remains the product source."
+      }
+    ],
+    "imagePolicy": "These URLs are references, not bundled original assets. Publication of generated PNG/WebP assets is tracked separately in public/components/photographic/asset-manifest.json and docs/PHOTOGRAPHIC-ASSETS.md. No manufacturer endorsement, exact-photo status or geometric accuracy is implied."
+  }
+}

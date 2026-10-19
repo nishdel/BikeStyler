@@ -1,0 +1,326 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BikeStyler sourced products pack v1",
+  "type": "object",
+  "properties": {
+    "format": {
+      "const": "bikestyler-products"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "version": {
+          "const": 1
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "maxLength": 160
+              },
+              "url": {
+                "type": "string",
+                "format": "uri",
+                "pattern": "^https://",
+                "maxLength": 2000
+              },
+              "publisher": {
+                "type": "string",
+                "maxLength": 160
+              },
+              "verifiedAt": {
+                "type": "string",
+                "maxLength": 50
+              },
+              "kind": {
+                "type": "string",
+                "maxLength": 100
+              },
+              "scope": {
+                "type": "string",
+                "maxLength": 2000
+              },
+              "rights": {
+                "type": "string",
+                "maxLength": 2000
+              },
+              "notes": {
+                "type": "string",
+                "maxLength": 4000
+              }
+            },
+            "required": [
+              "id",
+              "url",
+              "publisher",
+              "verifiedAt",
+              "kind",
+              "scope",
+              "rights"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 2000
+        },
+        "products": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "maxLength": 160
+              },
+              "brand": {
+                "type": "string",
+                "maxLength": 150
+              },
+              "model": {
+                "type": "string",
+                "maxLength": 200
+              },
+              "category": {
+                "type": "string",
+                "maxLength": 100
+              },
+              "family": {
+                "type": "string",
+                "maxLength": 200
+              },
+              "tags": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "maxLength": 100
+                },
+                "maxItems": 40
+              },
+              "sourceIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "maxLength": 160
+                },
+                "maxItems": 60
+              },
+              "status": {
+                "const": "verified-product"
+              },
+              "facts": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "key": {
+                      "type": "string",
+                      "maxLength": 100
+                    },
+                    "value": {
+                      "type": [
+                        "string",
+                        "number",
+                        "boolean"
+                      ]
+                    },
+                    "unit": {
+                      "type": "string",
+                      "maxLength": 80
+                    },
+                    "scope": {
+                      "type": "string",
+                      "maxLength": 1000
+                    },
+                    "sourceId": {
+                      "type": "string",
+                      "maxLength": 160
+                    },
+                    "statement": {
+                      "type": "string",
+                      "maxLength": 4000
+                    }
+                  },
+                  "required": [
+                    "key",
+                    "value",
+                    "scope",
+                    "sourceId",
+                    "statement"
+                  ],
+                  "additionalProperties": false
+                },
+                "maxItems": 80
+              },
+              "variants": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "maxLength": 160
+                    },
+                    "label": {
+                      "type": "string",
+                      "maxLength": 300
+                    },
+                    "facts": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "key": {
+                            "type": "string",
+                            "maxLength": 100
+                          },
+                          "value": {
+                            "type": [
+                              "string",
+                              "number",
+                              "boolean"
+                            ]
+                          },
+                          "unit": {
+                            "type": "string",
+                            "maxLength": 80
+                          },
+                          "scope": {
+                            "type": "string",
+                            "maxLength": 1000
+                          },
+                          "sourceId": {
+                            "type": "string",
+                            "maxLength": 160
+                          },
+                          "statement": {
+                            "type": "string",
+                            "maxLength": 4000
+                          }
+                        },
+                        "required": [
+                          "key",
+                          "value",
+                          "scope",
+                          "sourceId",
+                          "statement"
+                        ],
+                        "additionalProperties": false
+                      },
+                      "maxItems": 80
+                    },
+                    "sourceIds": {
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 160
+                      },
+                      "maxItems": 60
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "label",
+                    "facts",
+                    "sourceIds"
+                  ],
+                  "additionalProperties": false
+                },
+                "maxItems": 150
+              },
+              "previewStatus": {
+                "enum": [
+                  "unavailable",
+                  "reviewed"
+                ]
+              },
+              "previewReason": {
+                "type": "string",
+                "maxLength": 2000
+              },
+              "visualEntryId": {
+                "type": "string",
+                "maxLength": 160
+              }
+            },
+            "required": [
+              "id",
+              "brand",
+              "model",
+              "category",
+              "family",
+              "tags",
+              "sourceIds",
+              "status",
+              "facts",
+              "variants",
+              "previewStatus",
+              "previewReason"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 2000
+        },
+        "backlog": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "maxLength": 160
+              },
+              "brand": {
+                "type": "string",
+                "maxLength": 150
+              },
+              "model": {
+                "type": "string",
+                "maxLength": 200
+              },
+              "category": {
+                "type": "string",
+                "maxLength": 100
+              },
+              "sourceUrls": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "maxLength": 2000
+                },
+                "maxItems": 20
+              },
+              "reason": {
+                "type": "string",
+                "maxLength": 3000
+              }
+            },
+            "required": [
+              "id",
+              "brand",
+              "model",
+              "category",
+              "sourceUrls",
+              "reason"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 3000
+        }
+      },
+      "required": [
+        "version",
+        "sources",
+        "products",
+        "backlog"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "format",
+    "data"
+  ],
+  "additionalProperties": false
+}

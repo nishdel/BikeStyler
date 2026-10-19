@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:1adc10a0d975f268ffbe6b4463f575f577deeae3242e0209d8e1ca50819f1793",
+  "claims": [
+    {
+      "id": "claim_4c6cf39cd0bf45b0b8f2e20e70529cf9",
+      "statement": "Code licensing is undecided and separate from image permissions; generated product-reference images are appearance approximations.",
+      "evidence": [
+        {
+          "resource": "repo://docs/ASSETS.md",
+          "version": "repo-file-v1:sha256:52da032e05f12e5c21e94270d1826b20b87d78a6d24f006ba6287a7c73ca6bc7"
+        },
+        {
+          "resource": "repo://docs/LICENSING.md",
+          "version": "repo-file-v1:sha256:728a21186ebc7b1a74ab3f5c98269a0c1738d2cc29db806366c1e90941e58294"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.2",
+    "at": "2026-10-19T04:53:55.009Z"
+  }
+}

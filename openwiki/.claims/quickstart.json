@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:b5f6d5400a365373fd0d7ec662d512420cf2e6975298c9ef1c8f35163c86a7ab",
+  "claims": [
+    {
+      "id": "claim_38173c0ee1464c16bf2d3a4971522afc",
+      "statement": "BikeStyler edits bicycle appearance locally in the browser without runtime AI inference.",
+      "evidence": [
+        {
+          "resource": "repo://README.md",
+          "version": "repo-file-v1:sha256:e35f42eab31b89dbd83db8285d6f47fa2f3861100e8397268f254a863c13054b"
+        },
+        {
+          "resource": "repo://src/App.tsx",
+          "version": "repo-file-v1:sha256:9f45f6c0168c69c2f7c12fbdfa08cd9d2c3638cd15613b1a446d21e3bde64f34"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.2",
+    "at": "2026-10-19T04:53:55.009Z"
+  }
+}

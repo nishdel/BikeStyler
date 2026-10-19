@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:5cd2fcaa03fc2451e71576efab0d873671fa221e635e04a02dee9e958774754b",
+  "claims": [
+    {
+      "id": "claim_4703e3dee26e4209b1a3fc784397df6b",
+      "statement": "The compatibility checker evaluates recorded requirements and explicitly excludes unlisted interfaces and coupled physical behaviour.",
+      "evidence": [
+        {
+          "resource": "repo://docs/USER-GUIDE.md",
+          "version": "repo-file-v1:sha256:f6f8ec1e4b1f4ca179273a041aaef2401ad4ad7e1644d12335e6de88944d8534"
+        },
+        {
+          "resource": "repo://src/compatibility.ts",
+          "version": "repo-file-v1:sha256:ddcc2021d88476eb91e68f41e8f0c30aab7933c525c6ed74bae3b2cccbfbb9f2"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.2",
+    "at": "2026-10-19T04:53:55.009Z"
+  }
+}

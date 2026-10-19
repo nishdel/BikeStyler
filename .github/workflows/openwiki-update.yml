@@ -1,0 +1,13 @@
+# Intentionally inert local-first policy. OpenWiki 0.7.2 preserves an existing file.
+# Generate documentation only in an explicitly authorized Codex session.
+name: OpenWiki manual checkpoint (disabled)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  documentation-checkpoint:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'Documentation regeneration requires an authorized local session.'

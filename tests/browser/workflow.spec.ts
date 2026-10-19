@@ -8,7 +8,7 @@ test("garage interaction, persistence, comparison, export and mobile layout", as
   const external: string[] = [];
   page.on("request", (r) => {
     if (
-      !r.url().startsWith("http://127.0.0.1:5173") &&
+      !r.url().startsWith(`http://127.0.0.1:${process.env.BIKESTYLER_TEST_PORT || "5173"}`) &&
       !r.url().startsWith("data:")
     )
       external.push(r.url());

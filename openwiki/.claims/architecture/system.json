@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:c1ca506194f4fb57f155f3d6ec0f3ad151a8bdbec0e06540cc34cda94d5014ba",
+  "pageVersion": "sha256:fc1ed5531d224712a2a633b18f48dd4527bcfe22887e2093d882428cc7024490",
   "claims": [
     {
       "id": "claim_4703e3dee26e4209b1a3fc784397df6b",
@@ -8,7 +8,7 @@
       "evidence": [
         {
           "resource": "repo://docs/USER-GUIDE.md",
-          "version": "repo-file-v1:sha256:00af28520e63f55ad38e413806ea19026d494ca5645d6f0cacdd250ef791f3dc"
+          "version": "repo-file-v1:sha256:b5f15a8c42d7fb6ebea46c0ce95a04b0175d70a2282098a88277a6355b9faef9"
         },
         {
           "resource": "repo://src/compatibility.ts",
@@ -51,6 +51,6 @@
   ],
   "verification": {
     "by": "openwiki/0.7.2",
-    "at": "2026-10-19T12:42:53.720Z"
+    "at": "2026-10-19T12:49:33.437Z"
   }
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:d9253a305e5bd6cebbb198994f54f87aae5e40f01a2cbd72faf5b8078102a86c",
+  "pageVersion": "sha256:07227e2c6bdc19ddea16a6fdc4799a3db155831f1f6414a258831c81fae89529",
   "claims": [
     {
       "id": "claim_38173c0ee1464c16bf2d3a4971522afc",
@@ -8,7 +8,7 @@
       "evidence": [
         {
           "resource": "repo://README.md",
-          "version": "repo-file-v1:sha256:2eae82da00c56baf0542497bcb71e3d8f8f35be285f82476cf3d5e106b481074"
+          "version": "repo-file-v1:sha256:6c78e8ecb93a5afa2e6a0b764b23f2eac45c95e30c96a7cd2b47d83e4719ebb5"
         },
         {
           "resource": "repo://src/App.tsx",
@@ -19,6 +19,6 @@
   ],
   "verification": {
     "by": "openwiki/0.7.2",
-    "at": "2026-10-19T12:42:53.720Z"
+    "at": "2026-10-19T12:49:33.437Z"
   }
 }

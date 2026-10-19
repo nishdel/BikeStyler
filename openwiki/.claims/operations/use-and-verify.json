@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:dfb174935493939cefc8abc61e1b4c8d5750cef59248106b4147df083bf26943",
+  "pageVersion": "sha256:1fdc86c3a1173af5de0a7b8e9b59d6e03fbcd0b3a42c2306d480adc1fb1ee77c",
   "claims": [
     {
       "id": "claim_4c6cf39cd0bf45b0b8f2e20e70529cf9",
@@ -8,7 +8,7 @@
       "evidence": [
         {
           "resource": "repo://docs/ASSETS.md",
-          "version": "repo-file-v1:sha256:c021028a2a11dc6162782b7d0d24264d8d15fa9e88270d99296ef89c3ad41b08"
+          "version": "repo-file-v1:sha256:03d45184d494623a99cea2885972c0f0ca728a4984818abe52f2f9b97ed203de"
         },
         {
           "resource": "repo://docs/LICENSING.md",
@@ -22,11 +22,11 @@
       "evidence": [
         {
           "resource": "repo://docs/TESTING.md",
-          "version": "repo-file-v1:sha256:784e9a81e9fc81d1b03b30482170d586ee4d36b7f819e70f68eaa349ffdbe683"
+          "version": "repo-file-v1:sha256:4fc7a8bcd5c3b56578eb56d13d7b15e1c7a2dedd0aa5f554cb7b6111524230de"
         },
         {
           "resource": "repo://tests/browser/catalogue-mobile.spec.ts",
-          "version": "repo-file-v1:sha256:e1bad571da22ee8d24d2c55e55649183509b5b10ff24d7f663d61831724bdc08"
+          "version": "repo-file-v1:sha256:23cd79d2657a99500334c6d4025eed524596d8cc3d514258d7f09d60dc88e969"
         }
       ]
     },
@@ -36,17 +36,17 @@
       "evidence": [
         {
           "resource": "repo://docs/ASSETS.md",
-          "version": "repo-file-v1:sha256:c021028a2a11dc6162782b7d0d24264d8d15fa9e88270d99296ef89c3ad41b08"
+          "version": "repo-file-v1:sha256:03d45184d494623a99cea2885972c0f0ca728a4984818abe52f2f9b97ed203de"
         },
         {
           "resource": "repo://research/catalogue-review.json",
-          "version": "repo-file-v1:sha256:ca9ca9f91bf29012a01fc36eea9dca833e9ab0cc8a2550dfc6b962a3c8cd6808"
+          "version": "repo-file-v1:sha256:297e6b31f0009161df4d3ab3c3fcaabf316706daeabf499b48dcbb022482bb93"
         }
       ]
     }
   ],
   "verification": {
     "by": "openwiki/0.7.2",
-    "at": "2026-10-19T12:42:53.720Z"
+    "at": "2026-10-19T12:49:33.437Z"
   }
 }

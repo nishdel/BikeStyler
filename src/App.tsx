@@ -165,6 +165,14 @@ export default function App() {
     clearTimeout(toastTimer.current);
     toastTimer.current = setTimeout(() => setToast(""), 7000);
   }, []);
+  // Mark the same project revision dirty before rendering it. An earlier save
+  // must not leave “Saved locally” visible while this revision is still pending.
+  const stageProject = useCallback((next: Project) => {
+    current.current = next;
+    pendingSave.current = true;
+    setSaving("Saving…");
+    setP(next);
+  }, []);
   const update = useCallback((next: Project) => {
     const prev = current.current;
     if (prev && (!gesture.current.active || !gesture.current.recorded)) {
@@ -173,31 +181,27 @@ export default function App() {
       setFuture([]);
     }
     const updated = { ...next, updatedAt: new Date().toISOString() };
-    current.current = updated;
-    setP(updated);
-    pendingSave.current = true;
-  }, []);
+    stageProject(updated);
+  }, [stageProject]);
   const undo = useCallback(() => {
-    pendingSave.current = true;
     setPast((history) => {
       if (!history.length) return history;
       const last = history[history.length - 1];
       if (current.current)
         setFuture((next) => [current.current!, ...next].slice(0, 30));
-      setP(last);
+      stageProject(last);
       return history.slice(0, -1);
     });
-  }, []);
+  }, [stageProject]);
   const redo = useCallback(() => {
-    pendingSave.current = true;
     setFuture((history) => {
       if (!history.length) return history;
       if (current.current)
         setPast((prev) => [...prev, current.current!].slice(-30));
-      setP(history[0]);
+      stageProject(history[0]);
       return history.slice(1);
     });
-  }, []);
+  }, [stageProject]);
   useEffect(() => {
     clearCompositorCaches();
     clearImageCache();
@@ -244,9 +248,12 @@ export default function App() {
     listProjects()
       .then((saved) => {
         setLibrary(saved);
+        if (pendingSave.current) return;
         setSaving("Saved locally");
         if (saved.length) {
-          void fixStageFrame(saved[0]).then(setP);
+          void fixStageFrame(saved[0]).then((restored) => {
+            if (!pendingSave.current) setP(restored);
+          });
           metrics.current = saved[0].metrics.edits;
         }
       })
@@ -381,8 +388,7 @@ export default function App() {
     try {
       const project = await importPhoto(file);
       await preserve();
-      pendingSave.current = true;
-      setP(project);
+      stageProject(project);
       metrics.current = [];
       setPast([]);
       setFuture([]);
@@ -404,8 +410,7 @@ export default function App() {
       const project = parseProject(await file.text());
       await validateProjectImages(project);
       await preserve();
-      pendingSave.current = true;
-      setP(await fixStageFrame({ ...project, id: uid() }));
+      stageProject(await fixStageFrame({ ...project, id: uid() }));
       metrics.current = project.metrics.edits;
       setPast([]);
       setFuture([]);
@@ -480,8 +485,7 @@ export default function App() {
       await preserve();
       setBusy("Preparing the practice bicycle…");
       await new Promise((r) => setTimeout(r, 20));
-      pendingSave.current = true;
-      setP(await fixStageFrame(practiceProject()));
+      stageProject(await fixStageFrame(practiceProject()));
       metrics.current = [];
       setPast([]);
       setFuture([]);
@@ -626,8 +630,7 @@ export default function App() {
                   id: uid(),
                   name: p.name + " · separate copy",
                 };
-                pendingSave.current = true;
-                setP(copy);
+                stageProject(copy);
                 setPast([]);
                 setFuture([]);
                 setError("");

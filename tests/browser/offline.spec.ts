@@ -21,8 +21,13 @@ test("production build prepares locally, reloads offline and runs its setup work
   await page
     .getByRole("button", { name: /Try the practice illustration/ })
     .click();
+  await expect(page.locator(".garage")).toBeVisible();
   await expect(page.locator(".save-status")).toHaveText("Saved locally");
   await page.getByRole("button", { name: "Forest", exact: true }).click();
+  await expect(page.locator(".save-status")).toHaveText("Saving…");
+  await expect(
+    page.getByRole("button", { name: "Forest", exact: true }),
+  ).toHaveClass(/chosen/);
   await expect(page.locator(".save-status")).toHaveText("Saved locally");
   await context.setOffline(true);
   await page.reload();

@@ -5,7 +5,7 @@ description: "Source-grounded BikeStyler documentation entry point."
 tags: [bicycle, visualization, local]
 verified:
   - by: openwiki/0.7.2
-    at: 2026-10-19T04:53:55.009Z
+    at: 2026-10-19T05:12:27.646Z
 sources:
   - id: openwiki-source-23775c3de52f3ab95a13cb8b
     resource: repo://README.md

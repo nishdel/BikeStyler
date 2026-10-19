@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:5cd2fcaa03fc2451e71576efab0d873671fa221e635e04a02dee9e958774754b",
+  "pageVersion": "sha256:c1ca506194f4fb57f155f3d6ec0f3ad151a8bdbec0e06540cc34cda94d5014ba",
   "claims": [
     {
       "id": "claim_4703e3dee26e4209b1a3fc784397df6b",
@@ -8,17 +8,49 @@
       "evidence": [
         {
           "resource": "repo://docs/USER-GUIDE.md",
-          "version": "repo-file-v1:sha256:f6f8ec1e4b1f4ca179273a041aaef2401ad4ad7e1644d12335e6de88944d8534"
+          "version": "repo-file-v1:sha256:00af28520e63f55ad38e413806ea19026d494ca5645d6f0cacdd250ef791f3dc"
         },
         {
           "resource": "repo://src/compatibility.ts",
           "version": "repo-file-v1:sha256:ddcc2021d88476eb91e68f41e8f0c30aab7933c525c6ed74bae3b2cccbfbb9f2"
         }
       ]
+    },
+    {
+      "id": "claim_89c9b17557b54c7890d9d4a12b2291bb",
+      "statement": "Source listings use local index/detail files, save only the selected provenance and explicit options with an existing visual entry, and never qualify for Compatible real parts.",
+      "evidence": [
+        {
+          "resource": "repo://src/ListingCard.tsx",
+          "version": "repo-file-v1:sha256:770974b1b6a8b0b04a77bee2f4d86633debca96afab1f35ad1f65b3f3d0ae9b3"
+        },
+        {
+          "resource": "repo://src/ProductVisualPicker.tsx",
+          "version": "repo-file-v1:sha256:70cff48d03286d6eab37cda44cbe30bb618f5aafd00602d96ac65c810138ffad"
+        },
+        {
+          "resource": "repo://src/researchCatalogue.ts",
+          "version": "repo-file-v1:sha256:de6879c2b518e390512427e068fd615dd24598ed55447ed78c94d899a38a31ec"
+        }
+      ]
+    },
+    {
+      "id": "claim_224527f14a594af894eb08c4fab72718",
+      "statement": "Portable validation rejects a style selecting both a reviewed product and source listing, or a listing category that differs from its component.",
+      "evidence": [
+        {
+          "resource": "repo://src/validation.ts#L350-L371",
+          "version": "repo-lines-v1:sha256:bcff1400d6171918d61ae1b2d2f259b90b6ad151fc0ef4c81571c2fd8fdcd9b5:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJiM2FjZWU1ZjhiMDkyYTBmOWI5NGE0ZTMxODczNWE0NmRhYjQyYmIyY2EzYjYwZTAxOTgwYmI2N2Y0Y2Y1MTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNmZGQwZjE3OThjM2Y1ZWQzZjJjODVkMDcyZmQzYWU0Y2M1NjVmODRmMmIwMDYwNmVmMWFjYmU2ZDZmMzY0ZWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAxMDRkMTgyZDYwNGI0NDI1NTMzZWEwMzExMTU0MTA5ZWVhOGY4OTEzOTM3ZTg4NWM2ZjY0Yjk1YTIxNGQ1NzYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImM4NjA4NDc5Yzg2Y2ZmMGQwODYwMWNmNTIxYWUxMTViZDkwOGNiODZiZmM1MzFkYWFmY2ZiNDcwOTFmMDQ1NWUifQ"
+        },
+        {
+          "resource": "repo://src/validation.ts#L84-L111",
+          "version": "repo-lines-v1:sha256:114e19ad699d7bf7b31b17f647a20d943331f47affd13045ba57011c1606bee5:eyJzZWxlY3RlZExpbmVDb3VudCI6MjgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUyNWI0NzA3ZGI5MWIwZmI0NmQ3ZWE4YmZhMDI2MjkyYWUwMjgzYWJlYzhhODlkZDRhMTE2ZmQ3NjUwZDZlODkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY3ZDYxNGY3ZWQwYzY4MTcxMWY1ZjFkZDQzNWYxNzk0YjIzMDQ2NTlkMTg5NjMwMWQ4OGQ1MmYzYzM2MjQyMTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY5NTQzNjVkZmNjYmJlOWFmODg3MzUzNDE1ZjAwZGUxYjczNmU4YjdkOWEwNGMzYzBlMjFhNWQwNTk1OGQyY2QiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU1NTdlYWNkYmM3OGE2NWE0ODJjNmYxYzQzYjgxN2E3YmFlMWMxODY0NGFjYmM2YzQ2YjEwYmJjMzhkMTI2MzQifQ"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.7.2",
-    "at": "2026-10-19T04:53:55.009Z"
+    "at": "2026-10-19T12:42:53.720Z"
   }
 }

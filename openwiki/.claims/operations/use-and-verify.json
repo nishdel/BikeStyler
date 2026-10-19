@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:1adc10a0d975f268ffbe6b4463f575f577deeae3242e0209d8e1ca50819f1793",
+  "pageVersion": "sha256:dfb174935493939cefc8abc61e1b4c8d5750cef59248106b4147df083bf26943",
   "claims": [
     {
       "id": "claim_4c6cf39cd0bf45b0b8f2e20e70529cf9",
@@ -8,17 +8,45 @@
       "evidence": [
         {
           "resource": "repo://docs/ASSETS.md",
-          "version": "repo-file-v1:sha256:52da032e05f12e5c21e94270d1826b20b87d78a6d24f006ba6287a7c73ca6bc7"
+          "version": "repo-file-v1:sha256:c021028a2a11dc6162782b7d0d24264d8d15fa9e88270d99296ef89c3ad41b08"
         },
         {
           "resource": "repo://docs/LICENSING.md",
           "version": "repo-file-v1:sha256:728a21186ebc7b1a74ab3f5c98269a0c1738d2cc29db806366c1e90941e58294"
         }
       ]
+    },
+    {
+      "id": "claim_a55967bba71244ecbccbd0848dc45776",
+      "statement": "The catalogue/phone update records browser viewport emulation rather than physical-device testing, with two explicitly skipped WebKit offline paths.",
+      "evidence": [
+        {
+          "resource": "repo://docs/TESTING.md",
+          "version": "repo-file-v1:sha256:784e9a81e9fc81d1b03b30482170d586ee4d36b7f819e70f68eaa349ffdbe683"
+        },
+        {
+          "resource": "repo://tests/browser/catalogue-mobile.spec.ts",
+          "version": "repo-file-v1:sha256:e1bad571da22ee8d24d2c55e55649183509b5b10ff24d7f663d61831724bdc08"
+        }
+      ]
+    },
+    {
+      "id": "claim_9b6fc28610a74402a3d4194e9cd3c229",
+      "statement": "All 73 priority image candidates were reviewed without approving a newly redistributed photograph; existing generic previews and catalogue-only records remain labelled.",
+      "evidence": [
+        {
+          "resource": "repo://docs/ASSETS.md",
+          "version": "repo-file-v1:sha256:c021028a2a11dc6162782b7d0d24264d8d15fa9e88270d99296ef89c3ad41b08"
+        },
+        {
+          "resource": "repo://research/catalogue-review.json",
+          "version": "repo-file-v1:sha256:ca9ca9f91bf29012a01fc36eea9dca833e9ab0cc8a2550dfc6b962a3c8cd6808"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.7.2",
-    "at": "2026-10-19T04:53:55.009Z"
+    "at": "2026-10-19T12:42:53.720Z"
   }
 }
